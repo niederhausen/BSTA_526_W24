@@ -33,5 +33,12 @@
     "title": "About",
     "section": "Acknowledgements",
     "text": "Acknowledgements\n\nBSTA 526 class materials\n\nBSTA 526 was taught in previous years as BSTA 504 by Ted Laderas (2021) and Jessica Minnier (2022, 2023).\nAlmost all course materials were created by Ted and Jessica with minor changes for BSTA 526 (such as updating from RMarkdown to Quarto). Their work is licensed under a Creative Commons Attribution 4.0 International License. See previous class websites linked to above for links to their source code on GitHub.\n\n\n\nQuarto webpage\n\nThank you to Nicky Wakim for creating her amazing webpage for BSTA 550, and sharing her code on GitHub. Having her template made creating this website a much smoother process.\nThank you also to Andrew Bray for presenting the From R Markdown to Quarto ASA Travelling Workshop to the Oregon Chapter of the ASA in June 2023. This workshop was a great starting point in making the switch from RMarkdown to Quarto and also create Quarto webpages."
+  },
+  {
+    "objectID": "schedule.html",
+    "href": "schedule.html",
+    "title": "Schedule",
+    "section": "",
+    "text": "Schedule is subject to change.\nLinks have been added to all weeks, but weeks we have not covered yet will have broken links.\n\n\n\n\nWeek\nDate\nTopics\nClassroom\nInstructor\n\n\n\n\n1\n1/10\nIntroduction to course/expectations, Intro to R/RStudio, Functions, Vectors, Data Types\nRLSB 2S014/ 2S018\nMeike\n\n\n2\n1/17\nLoading Data, data.frames, and ggplot2\nRPV 1217\nMeike\n\n\n3\n1/24\ndplyr: subsetting using filter()/select()\nRLSB 2S014/ 2S018\nEmile\n\n\n4\n1/31\ndplyr: mutate(),across(), case_when(), factors, ggplot2 boxplots, facets, scales\nRPV 1217\nEmile\n\n\n5\n2/7\nsummarize() and group_by(), doing things with multiple tables (left_join() etc), reshaping data (i.e. pivot_longer())\nRLSB 2S014/ 2S018\nMeike\n\n\n\n2/7\nTake Home Midterm Assigned\n\n\n\n\n6\n2/14\nIntro to functions, working with lists\nRPV 1217\nEmile\n\n\n\n2/18\nTake home midterm due (Sunday)\n\n\n\n\n7\n2/21\nFunctions/batch processing/purrr\nRPV 1217\nEmile\n\n\n8\n2/28\nFunctions/batch processing/purrr\nRPV 1217\nEmile\n\n\n9\n3/6\nIntro to stats/formulas/broom/More Purrr\nRLSB 2S014/ 2S018\nMeike\n\n\n10\n3/10\nFinal Project Assigned (Monday)\n\n\n\n\n10\n3/13\nIntro to stats/formulas/broom/More Purrr\nRPV 1217\nMeike\n\n\n11\n3/20\nNo Class, Office Hour\nRPV 1217\n\n\n\n\n3/22\nFinal Project Due"
   }
 ]
