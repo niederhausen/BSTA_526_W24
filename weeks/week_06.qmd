@@ -1,0 +1,81 @@
+---
+title: "Week 6"
+description: "Start with your goal: more data wrangling"
+date: "2/14/2024"
+date-modified: "today"
+categories: [""]
+format: 
+  html:
+    link-external-newwindow: true
+    toc: true
+editor_options: 
+  chunk_output_type: console
+---
+
+## Announcements
+
+* HW 5: see the updated HW 5 assignment on OneDrive called `hw_05_b526_v2.qmd`
+* Midterm: due date extended to 2/25/24. 
+    * See the updated midterm file on OneDrive with new yaml, due date, and links to previous midterm projects.
+
+### Reminder to fill out post-class surveys
+
+* This is a reminder that 5% of your grade is based on filling out [post-class surveys](https://ohsu.ca1.qualtrics.com/jfe/form/SV_5urkrdktEwkQqEu) as a way of telling us that you came to class and engaged with the material for that week.
+* You only need to fill out 5 surveys (of the 10 class sessions) for the full 5%. We encourage you to fill out as many surveys as possible to provide feedback on the class though.
+* __Please fill out surveys by 8 pm on Sunday evenings to guarantee that they will be counted.__ We usually download them some time on Sunday evening or Monday. If you turn it in before we download the responses, it will get counted. 
+
+_See [syllabus section on Post-class surveys](https://niederhausen.github.io/BSTA_526_W24/syllabus.html#post-class-surveys)_
+
+
+
+## Topics
+
+### Finish week 5
+
+* We will first finish the material not covered from Week 5, starting with section 4.6.
+    * Note: I created a new version of the code file (inside the `code` folder) called `part_05_b526_v2.qmd/.html`.
+    * _I decided not to move the Week 5 material not covered to the Week 6 notes._
+
+From Week 5:
+
+-   **Learn** how to `summarize()` data with `group_by()` to summarize within categories
+-   **Learn** about the different kinds of joins and how they merge data
+    -   **Apply** `inner_join()` and `left_join()` to join tables on columns
+-   **Utilize** `pivot_longer()` to make a *wide* dataset *long*
+
+
+### New Week 6 topics
+
+- **Practice** working with real data
+- **Practice** joining and pivoting
+- **Practice** ggplot and learn more geometries
+- **Learn** how to deal with missing data
+
+
+## Class materials
+
+* [Week 5 Readings](../readings/05-reading.qmd)
+* [Week 6 Readings](../readings/06-reading.qmd)
+* One Drive [part_05 & part_06 Project folders](https://ohsuitg-my.sharepoint.com/:f:/g/personal/niederha_ohsu_edu/EvZ5qnesTopKqFWN2_hqEsYBLKZmJDjVxrPCbQOpvAIYSg?e=RDggRF)
+
+
+## Post-class survey
+
+* Please fill out the [post-class survey](https://ohsu.ca1.qualtrics.com/jfe/form/SV_5urkrdktEwkQqEu) to provide feedback. Thank you!
+
+
+## Homework
+
+* See OneDrive folder for homework assignment.
+* HW 6 due on 2/21.
+
+
+## Recording
+
+* __In-class__ recording links are on [Sakai](https://sakai.ohsu.edu/portal/site/BSTA-526-1-AX-W24/tool/a973f2a2-ea06-4734-aab7-a066c5573ca6/ShowPage?returnView=&studentItemId=0&backPath=&bltiAppStores=false&errorMessage=&clearAttr=&messageId=&source=&title=&newTopLevel=false&sendingPage=190949&postedComment=false&addBefore=&itemId=5172228&path=push&topicId=&addTool=-1&recheck=&id=&forumId=). Navigate to _Course Materials_ -> _Schedule with links to in-class recordings_. Note that the password to the recordings is at the top of the page. 
+
+
+# Feedback from post-class surveys
+
+* Week 6 feedback will be added during Week 7.
+* See Week 5 page for [Week 5 feedback](week_05.qmd#muddiest-points-from-week-5).

@@ -214,7 +214,7 @@
     "href": "weeks.html",
     "title": "Weekly Pages",
     "section": "",
-    "text": "Links to weekly pages\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\n1/10/24\n\n\nWeek 1\n\n\nIntro to R/RStudio, Functions, Vectors, Data Types\n\n\n\n\n1/17/24\n\n\nWeek 2\n\n\nProjects, data frames, reading in data, visualizing data with ggplot2\n\n\n\n\n1/24/24\n\n\nWeek 3\n\n\nErrors, more data loading, data manipulation, ggplot themes, factors\n\n\n\n\n1/31/24\n\n\nWeek 4\n\n\nmutate(), case_when(), more ggplot2\n\n\n\n\n2/7/24\n\n\nWeek 5\n\n\nData summarizing, reshaping, and wrangling with multiple tables\n\n\n\n\n\n\nNo matching items"
+    "text": "Links to weekly pages\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\n1/10/24\n\n\nWeek 1\n\n\nIntro to R/RStudio, Functions, Vectors, Data Types\n\n\n\n\n1/17/24\n\n\nWeek 2\n\n\nProjects, data frames, reading in data, visualizing data with ggplot2\n\n\n\n\n1/24/24\n\n\nWeek 3\n\n\nErrors, more data loading, data manipulation, ggplot themes, factors\n\n\n\n\n1/31/24\n\n\nWeek 4\n\n\nmutate(), case_when(), more ggplot2\n\n\n\n\n2/7/24\n\n\nWeek 5\n\n\nData summarizing, reshaping, and wrangling with multiple tables\n\n\n\n\n2/14/24\n\n\nWeek 6\n\n\nStart with your goal: more data wrangling\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "readings.html",
@@ -803,5 +803,54 @@
     "title": "Week 6 Readings",
     "section": "Suggested",
     "text": "Suggested\n\nDates and timess (Ch 17) in R for Data Science 2nd Ed"
+  },
+  {
+    "objectID": "weeks/week_06.html",
+    "href": "weeks/week_06.html",
+    "title": "Week 6",
+    "section": "",
+    "text": "HW 5: see the updated HW 5 assignment on OneDrive called hw_05_b526_v2.qmd\nMidterm: due date extended to 2/25/24.\n\nSee the updated midterm file on OneDrive with new yaml, due date, and links to previous midterm projects.\n\n\n\n\n\nThis is a reminder that 5% of your grade is based on filling out post-class surveys as a way of telling us that you came to class and engaged with the material for that week.\nYou only need to fill out 5 surveys (of the 10 class sessions) for the full 5%. We encourage you to fill out as many surveys as possible to provide feedback on the class though.\nPlease fill out surveys by 8 pm on Sunday evenings to guarantee that they will be counted. We usually download them some time on Sunday evening or Monday. If you turn it in before we download the responses, it will get counted.\n\nSee syllabus section on Post-class surveys"
+  },
+  {
+    "objectID": "weeks/week_06.html#announcements",
+    "href": "weeks/week_06.html#announcements",
+    "title": "Week 6",
+    "section": "",
+    "text": "HW 5: see the updated HW 5 assignment on OneDrive called hw_05_b526_v2.qmd\nMidterm: due date extended to 2/25/24.\n\nSee the updated midterm file on OneDrive with new yaml, due date, and links to previous midterm projects.\n\n\n\n\n\nThis is a reminder that 5% of your grade is based on filling out post-class surveys as a way of telling us that you came to class and engaged with the material for that week.\nYou only need to fill out 5 surveys (of the 10 class sessions) for the full 5%. We encourage you to fill out as many surveys as possible to provide feedback on the class though.\nPlease fill out surveys by 8 pm on Sunday evenings to guarantee that they will be counted. We usually download them some time on Sunday evening or Monday. If you turn it in before we download the responses, it will get counted.\n\nSee syllabus section on Post-class surveys"
+  },
+  {
+    "objectID": "weeks/week_06.html#topics",
+    "href": "weeks/week_06.html#topics",
+    "title": "Week 6",
+    "section": "Topics",
+    "text": "Topics\n\nFinish week 5\n\nWe will first finish the material not covered from Week 5, starting with section 4.6.\n\nNote: I created a new version of the code file (inside the code folder) called part_05_b526_v2.qmd/.html.\nI decided not to move the Week 5 material not covered to the Week 6 notes.\n\n\nFrom Week 5:\n\nLearn how to summarize() data with group_by() to summarize within categories\nLearn about the different kinds of joins and how they merge data\n\nApply inner_join() and left_join() to join tables on columns\n\nUtilize pivot_longer() to make a wide dataset long\n\n\n\nNew Week 6 topics\n\nPractice working with real data\nPractice joining and pivoting\nPractice ggplot and learn more geometries\nLearn how to deal with missing data"
+  },
+  {
+    "objectID": "weeks/week_06.html#class-materials",
+    "href": "weeks/week_06.html#class-materials",
+    "title": "Week 6",
+    "section": "Class materials",
+    "text": "Class materials\n\nWeek 5 Readings\nWeek 6 Readings\nOne Drive part_05 & part_06 Project folders"
+  },
+  {
+    "objectID": "weeks/week_06.html#post-class-survey",
+    "href": "weeks/week_06.html#post-class-survey",
+    "title": "Week 6",
+    "section": "Post-class survey",
+    "text": "Post-class survey\n\nPlease fill out the post-class survey to provide feedback. Thank you!"
+  },
+  {
+    "objectID": "weeks/week_06.html#homework",
+    "href": "weeks/week_06.html#homework",
+    "title": "Week 6",
+    "section": "Homework",
+    "text": "Homework\n\nSee OneDrive folder for homework assignment.\nHW 6 due on 2/21."
+  },
+  {
+    "objectID": "weeks/week_06.html#recording",
+    "href": "weeks/week_06.html#recording",
+    "title": "Week 6",
+    "section": "Recording",
+    "text": "Recording\n\nIn-class recording links are on Sakai. Navigate to Course Materials -&gt; Schedule with links to in-class recordings. Note that the password to the recordings is at the top of the page."
   }
 ]
