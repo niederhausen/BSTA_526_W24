@@ -852,5 +852,33 @@
     "title": "Week 6",
     "section": "Recording",
     "text": "Recording\n\nIn-class recording links are on Sakai. Navigate to Course Materials -&gt; Schedule with links to in-class recordings. Note that the password to the recordings is at the top of the page."
+  },
+  {
+    "objectID": "weeks/week_05.html#case_when-vs-ifelse",
+    "href": "weeks/week_05.html#case_when-vs-ifelse",
+    "title": "Week 5",
+    "section": "case_when() vs ifelse()",
+    "text": "case_when() vs ifelse()\nThe difference between case_when and ifelse\n\nifelse() is the base R version of tidyverse’s case_when()\nI prefer using case_when() since it’s easier to follow the logic.\ncase_when() is especially useful when there are more than two logical conditions being used.\n\nThe example below creates a binary variable for bill length (long vs not long) using both case_when() and ifelse() as a comparison.\n\nCompare the crosstabs of the two variables!\n\n\nlibrary(tidyverse)\nlibrary(janitor)\nlibrary(palmerpenguins)\n\nsummary(penguins)\n\n      species          island    bill_length_mm  bill_depth_mm  \n Adelie   :152   Biscoe   :168   Min.   :32.10   Min.   :13.10  \n Chinstrap: 68   Dream    :124   1st Qu.:39.23   1st Qu.:15.60  \n Gentoo   :124   Torgersen: 52   Median :44.45   Median :17.30  \n                                 Mean   :43.92   Mean   :17.15  \n                                 3rd Qu.:48.50   3rd Qu.:18.70  \n                                 Max.   :59.60   Max.   :21.50  \n                                 NA's   :2       NA's   :2      \n flipper_length_mm  body_mass_g       sex           year     \n Min.   :172.0     Min.   :2700   female:165   Min.   :2007  \n 1st Qu.:190.0     1st Qu.:3550   male  :168   1st Qu.:2007  \n Median :197.0     Median :4050   NA's  : 11   Median :2008  \n Mean   :200.9     Mean   :4202                Mean   :2008  \n 3rd Qu.:213.0     3rd Qu.:4750                3rd Qu.:2009  \n Max.   :231.0     Max.   :6300                Max.   :2009  \n NA's   :2         NA's   :2                                 \n\npenguins &lt;- penguins %&gt;% \n  mutate(\n    long_bill1 = case_when(\n      bill_length_mm &gt;= 45 ~ \"long\",\n      bill_length_mm &lt; 45 ~ \"not long\",\n    ),\n    long_bill2 = ifelse(bill_length_mm &gt;= 45, \"long\", \"not long\")\n  )\n\npenguins %&gt;% tabyl(long_bill1, long_bill2) %&gt;% \n  adorn_title()\n\n            long_bill2             \n long_bill1       long not long NA_\n       long        166        0   0\n   not long          0      176   0\n       &lt;NA&gt;          0        0   2\n\n\nBelow is an example using case_when() to create a categorical variable with 3 groups:\n\npenguins &lt;- penguins %&gt;% \n  mutate(\n    long_bill3 = case_when(\n      bill_length_mm &gt;= 50 ~ \"long\",\n      bill_length_mm &lt;= 40 ~ \"short\",\n      TRUE ~ \"medium\"\n    ))\n\npenguins %&gt;% tabyl(long_bill3, long_bill1) %&gt;% \n  adorn_title()\n\n            long_bill1             \n long_bill3       long not long NA_\n       long         57        0   0\n     medium        109       76   2\n      short          0      100   0\n\n\n\nCreating a categorical variable with 3 groups can be done with ifelse(), but it’s harder to follow the logic:\n\n\npenguins &lt;- penguins %&gt;% \n  mutate(\n    long_bill4 = ifelse(\n      bill_length_mm &gt;= 50, \"long\",\n      ifelse(bill_length_mm &lt;= 40, \"short\", \"medium\")\n      ))\n\npenguins %&gt;% tabyl(long_bill3, long_bill4) %&gt;% \n  adorn_title()\n\n            long_bill4                 \n long_bill3       long medium short NA_\n       long         57      0     0   0\n     medium          0    185     0   2\n      short          0      0   100   0"
+  },
+  {
+    "objectID": "weeks/week_05.html#separate",
+    "href": "weeks/week_05.html#separate",
+    "title": "Week 5",
+    "section": "separate()",
+    "text": "separate()\nDifferent ways of using the function separate, it was a bit unclear that when to use one or the other or examples of my research data where it’ll be most relevant to use.\n\nChoosing the “best” way of using separate() is overwhelming at first.\nI recommend starting with the simplest use case with a string being specified in sep = \" \":\n\n\nseparate(data, col, into, sep = \" \")\n\n\nWhich of the various versions we showed to use depends on how the data being separated are structured.\nMost of the time I have a simple character, such as a space (sep = \" \") or a comma (sep = \",\") that I want to separate by.\nIf the data are structured in a more complex way, then one of the stringr package options might come in handy."
+  },
+  {
+    "objectID": "weeks/week_05.html#herehere",
+    "href": "weeks/week_05.html#herehere",
+    "title": "Week 5",
+    "section": "here::here()",
+    "text": "here::here()\nTSV files, very neat… But also, I got a bit confused when you did the render process around 22:00-23:00 minutes. Also, “here: and also”here” Directories/root directories. I was a bit confused about in what situations we would tangibly utilize this/if it is beneficial.\n\nGreat question! This is definitely not intuitive, which is why I wanted to demonstrate it in class.\nThe key is that\n\nwhen rendering a qmd file the current working directory is the folder the file is sitting in,\nwhile when running code in a file within RStudio the working directory is the folder where the .Rproj file is located.\n\n\nThis distinction is important when loading other files from our computer during our workflow, and why here::here() makes our workflow so much easier!"
+  },
+  {
+    "objectID": "weeks/week_05.html#what-functions-will-only-work-within-another-function-generally",
+    "href": "weeks/week_05.html#what-functions-will-only-work-within-another-function-generally",
+    "title": "Week 5",
+    "section": "what functions will only work within another function (generally)",
+    "text": "what functions will only work within another function (generally)\n\nI’m not aware of functions that only work standalone within other functions. For example, the mean() function works on its own, but can also be used within a summarise().\n\n\nmean(penguins$bill_length_mm, na.rm = TRUE)\n\n[1] 43.92193\n\npenguins %&gt;% summarise(\n  m = mean(bill_length_mm, na.rm = TRUE)\n)\n\n# A tibble: 1 × 1\n      m\n  &lt;dbl&gt;\n1  43.9\n\n\n\nThat being said, a function has a set of parameters to be specified that are specific to that function."
   }
 ]

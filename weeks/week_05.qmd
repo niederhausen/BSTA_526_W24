@@ -61,7 +61,118 @@ Updates made on 2/9/24
 * __In-class__ recording links are on [Sakai](https://sakai.ohsu.edu/portal/site/BSTA-526-1-AX-W24/tool/a973f2a2-ea06-4734-aab7-a066c5573ca6/ShowPage?returnView=&studentItemId=0&backPath=&bltiAppStores=false&errorMessage=&clearAttr=&messageId=&source=&title=&newTopLevel=false&sendingPage=190949&postedComment=false&addBefore=&itemId=5172228&path=push&topicId=&addTool=-1&recheck=&id=&forumId=). Navigate to _Course Materials_ -> _Schedule with links to in-class recordings_. Note that the password to the recordings is at the top of the page. 
 
 
-# Feedback from post-class surveys
+# Muddiest points from Week 5
 
-* Week 5 feedback will be added during Week 6.
 * See Week 4 page for [Week 4 feedback](week_04.qmd#muddiest-points-from-week-4).
+
+
+
+## `case_when()` vs `ifelse()`
+
+_The difference between case_when and ifelse_
+
+* `ifelse()` is the base R version of tidyverse's `case_when()`
+* I prefer using `case_when()` since it's easier to follow the logic.
+* `case_when()` is especially useful when there are more than two logical conditions being used.
+
+
+
+The example below creates a binary variable for bill length (long vs not long) using both `case_when()` and `ifelse()` as a comparison.
+
+* Compare the crosstabs of the two variables!
+
+```{r message=FALSE, warning=FALSE}
+library(tidyverse)
+library(janitor)
+library(palmerpenguins)
+
+summary(penguins)
+
+penguins <- penguins %>% 
+  mutate(
+    long_bill1 = case_when(
+      bill_length_mm >= 45 ~ "long",
+      bill_length_mm < 45 ~ "not long",
+    ),
+    long_bill2 = ifelse(bill_length_mm >= 45, "long", "not long")
+  )
+
+penguins %>% tabyl(long_bill1, long_bill2) %>% 
+  adorn_title()
+
+```
+
+Below is an example using `case_when()` to create a categorical variable with 3 groups:
+
+```{r}
+penguins <- penguins %>% 
+  mutate(
+    long_bill3 = case_when(
+      bill_length_mm >= 50 ~ "long",
+      bill_length_mm <= 40 ~ "short",
+      TRUE ~ "medium"
+    ))
+
+penguins %>% tabyl(long_bill3, long_bill1) %>% 
+  adorn_title()
+```
+
+* Creating a categorical variable with 3 groups can be done with `ifelse()`, but it's harder to follow the logic:
+
+```{r}
+penguins <- penguins %>% 
+  mutate(
+    long_bill4 = ifelse(
+      bill_length_mm >= 50, "long",
+      ifelse(bill_length_mm <= 40, "short", "medium")
+      ))
+
+penguins %>% tabyl(long_bill3, long_bill4) %>% 
+  adorn_title()
+```
+
+
+## `separate()`
+
+_Different ways of using the function separate, it was a bit unclear that when to use one or the other or examples of my research data where it'll be most relevant to use._
+
+* Choosing the "best" way of using `separate()` is overwhelming at first. 
+* I recommend starting with the simplest use case with a string being specified in `sep = " "`:
+
+>`separate(data, col, into, sep = " ")`
+
+* Which of the various versions we showed to use depends on how the data being separated are structured. 
+* Most of the time I have a simple character, such as a space (`sep = " "`) or a comma (`sep = ","`) that I want to separate by.
+* If the data are structured in a more complex way, then one of the `stringr` package options might come in handy.
+
+
+
+## `here::here()`
+
+_TSV files, very neat... But also, I got a bit confused when you did the render process around 22:00-23:00 minutes. Also, "here: and also "here" Directories/root directories. I was a bit confused about in what situations we would tangibly utilize this/if it is beneficial._
+
+* Great question! This is definitely not intuitive, which is why I wanted to demonstrate it in class. 
+* The key is that 
+    * when rendering a qmd file the current working directory is the folder the file is sitting in, 
+    * while when running code in a file within RStudio the working directory is the folder where the `.Rproj` file is located.  
+* This distinction is important when loading other files from our computer during our workflow, and why `here::here()` makes our workflow so much easier!
+
+
+##  what functions will only work within another function (generally)
+
+* I'm not aware of functions that only work standalone within other functions. For example, the `mean()` function works on its own, but can also be used within a `summarise()`.
+
+
+```{r}
+mean(penguins$bill_length_mm, na.rm = TRUE)
+
+penguins %>% summarise(
+  m = mean(bill_length_mm, na.rm = TRUE)
+)
+```
+
+* That being said, a function has a set of parameters to be specified that are specific to that function. 
+
+
+
+
