@@ -221,7 +221,7 @@
     "href": "readings.html",
     "title": "Readings",
     "section": "",
-    "text": "Links to weekly readings\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\n1/10/24\n\n\nWeek 1 Readings\n\n\nIntroduction to R/RStudio/Vectors\n\n\n\n\n1/17/24\n\n\nWeek 2 Readings\n\n\nLoading data, data.frames, and ggplot2\n\n\n\n\n1/24/24\n\n\nWeek 3 Readings\n\n\nggplot2, factors, boxplots, dplyr: subsetting using filter()/select()\n\n\n\n\n1/31/24\n\n\nWeek 4 Readings\n\n\ndplyr: mutate(), across(), ggplot: faceting, scales\n\n\n\n\n2/7/24\n\n\nWeek 5 Readings\n\n\nsummarize() and group_by(), doing things with multiple tables (left_join() etc), reshaping data (i.e. pivot_longer())\n\n\n\n\n\n\nNo matching items"
+    "text": "Links to weekly readings\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\n1/10/24\n\n\nWeek 1 Readings\n\n\nIntroduction to R/RStudio/Vectors\n\n\n\n\n1/17/24\n\n\nWeek 2 Readings\n\n\nLoading data, data.frames, and ggplot2\n\n\n\n\n1/24/24\n\n\nWeek 3 Readings\n\n\nggplot2, factors, boxplots, dplyr: subsetting using filter()/select()\n\n\n\n\n1/31/24\n\n\nWeek 4 Readings\n\n\ndplyr: mutate(), across(), ggplot: faceting, scales\n\n\n\n\n2/7/24\n\n\nWeek 5 Readings\n\n\nsummarize() and group_by(), doing things with multiple tables (left_join() etc), reshaping data (i.e. pivot_longer())\n\n\n\n\n2/14/24\n\n\nWeek 6 Readings\n\n\nLists and RMarkdown\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "weeks/week_01.html",
@@ -782,5 +782,26 @@
     "title": "n_distinct",
     "section": "",
     "text": "The function n_distinct() is helpful for data exploration for categorical variables because it quickly counts the number of distinct values.\nHowever, n_distinct() on its own is not very powerful, and the function is more helpful when used in combination with other functions."
+  },
+  {
+    "objectID": "readings/06-reading.html",
+    "href": "readings/06-reading.html",
+    "title": "Week 6 Readings",
+    "section": "",
+    "text": "Control your Factors Using Forcats"
+  },
+  {
+    "objectID": "readings/06-reading.html#required",
+    "href": "readings/06-reading.html#required",
+    "title": "Week 6 Readings",
+    "section": "",
+    "text": "Control your Factors Using Forcats"
+  },
+  {
+    "objectID": "readings/06-reading.html#suggested",
+    "href": "readings/06-reading.html#suggested",
+    "title": "Week 6 Readings",
+    "section": "Suggested",
+    "text": "Suggested\n\nMore on joining data in Joins (Ch 19) from R for Data Science 2nd Ed\nDates and timess (Ch 17) in R for Data Science 2nd Ed"
   }
 ]
