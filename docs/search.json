@@ -788,20 +788,20 @@
     "href": "readings/06-reading.html",
     "title": "Week 6 Readings",
     "section": "",
-    "text": "Control your Factors Using Forcats"
+    "text": "Control your Factors Using Forcats\nMore on joining data in Joins (Ch 19) from R for Data Science 2nd Ed"
   },
   {
     "objectID": "readings/06-reading.html#required",
     "href": "readings/06-reading.html#required",
     "title": "Week 6 Readings",
     "section": "",
-    "text": "Control your Factors Using Forcats"
+    "text": "Control your Factors Using Forcats\nMore on joining data in Joins (Ch 19) from R for Data Science 2nd Ed"
   },
   {
     "objectID": "readings/06-reading.html#suggested",
     "href": "readings/06-reading.html#suggested",
     "title": "Week 6 Readings",
     "section": "Suggested",
-    "text": "Suggested\n\nMore on joining data in Joins (Ch 19) from R for Data Science 2nd Ed\nDates and timess (Ch 17) in R for Data Science 2nd Ed"
+    "text": "Suggested\n\nDates and timess (Ch 17) in R for Data Science 2nd Ed"
   }
 ]
