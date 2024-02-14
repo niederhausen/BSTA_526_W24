@@ -1,7 +1,9 @@
 [
   {
     "listing": "/weeks.html",
-    "items": []
+    "items": [
+      "/weeks/week_01.html"
+    ]
   },
   {
     "listing": "/readings.html",
