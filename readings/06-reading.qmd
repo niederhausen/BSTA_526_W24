@@ -1,7 +1,7 @@
 ---
 title: "Week 6 Readings"
 linktitle: "Wk 6 Readings"
-description: "Lists and RMarkdown"
+description: "More practice with data wrangling"
 date: "2024-02-14"
 date-modified: "today"
 categories: [""]
