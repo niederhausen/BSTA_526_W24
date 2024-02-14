@@ -11,6 +11,9 @@
   },
   {
     "listing": "/readings.html",
-    "items": []
+    "items": [
+      "/readings/01-reading.html",
+      "/readings/02-reading.html"
+    ]
   }
 ]
