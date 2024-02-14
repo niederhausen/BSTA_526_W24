@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2024-01-24">
+<meta name="description" content="ggplot2, factors, boxplots, dplyr: subsetting using filter()/select()">
 
-<title>BSTA 526 Winter 2024 - Readings</title>
+<title>BSTA 526 Winter 2024 - Week 3 Readings</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +25,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -61,40 +61,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="nav-sidebar docked nav-fixed">
@@ -104,10 +73,10 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-sm navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./images/IMG_6759_med.png" alt="" class="navbar-logo">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../images/IMG_6759_med.png" alt="" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">BSTA 526 Winter 2024</span>
     </a>
   </div>
@@ -118,23 +87,23 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" rel="" target="" aria-current="page">
+    <a class="nav-link active" href="../index.html" rel="" target="" aria-current="page">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./schedule.html" rel="" target="">
+    <a class="nav-link" href="../schedule.html" rel="" target="">
  <span class="menu-text">Schedule</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./readings.html" rel="" target="">
+    <a class="nav-link" href="../readings.html" rel="" target="">
  <span class="menu-text">Readings</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./weeks.html" rel="" target="">
+    <a class="nav-link" href="../weeks.html" rel="" target="">
  <span class="menu-text">Weeks</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html" rel="" target="">
+    <a class="nav-link" href="../about.html" rel="" target="">
  <span class="menu-text">About</span></a>
   </li>  
 </ul>
@@ -148,7 +117,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./readings.html">Readings</a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Week 3 Readings</li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -170,37 +139,37 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Home</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./syllabus.html" class="sidebar-item-text sidebar-link">
+  <a href="../syllabus.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Syllabus</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./schedule.html" class="sidebar-item-text sidebar-link">
+  <a href="../schedule.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Schedule</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./readings.html" class="sidebar-item-text sidebar-link active">
+  <a href="../readings.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Readings</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./weeks.html" class="sidebar-item-text sidebar-link">
+  <a href="../weeks.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Weeks</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./function_week.qmd" class="sidebar-item-text sidebar-link">
+  <a href="../function_week.qmd" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Functions of the Week</span></a>
   </div>
 </li>
@@ -210,139 +179,104 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#required" id="toc-required" class="nav-link active" data-scroll-target="#required">Required</a>
+  <ul class="collapse">
+  <li><a href="#ggplot2" id="toc-ggplot2" class="nav-link" data-scroll-target="#ggplot2"><code>ggplot2</code></a></li>
+  <li><a href="#dplyr" id="toc-dplyr" class="nav-link" data-scroll-target="#dplyr"><code>dplyr</code></a></li>
+  </ul></li>
+  <li><a href="#optional" id="toc-optional" class="nav-link" data-scroll-target="#optional">Optional</a>
+  <ul class="collapse">
+  <li><a href="#customizing-ggplot2" id="toc-customizing-ggplot2" class="nav-link" data-scroll-target="#customizing-ggplot2">Customizing ggplot2</a></li>
+  <li><a href="#using-tidyselect-intermediate-level" id="toc-using-tidyselect-intermediate-level" class="nav-link" data-scroll-target="#using-tidyselect-intermediate-level">Using <code>tidyselect</code> (Intermediate Level)</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Readings</h1>
+<h1 class="title">Week 3 Readings</h1>
 </div>
 
+<div>
+  <div class="description">
+    <code>ggplot2</code>, factors, boxplots, <code>dplyr</code>: subsetting using <code>filter()</code>/<code>select()</code>
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">January 24, 2024</p>
+    </div>
+  </div>
   
+    <div>
+    <div class="quarto-title-meta-heading">Modified</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date-modified">February 13, 2024</p>
+    </div>
+  </div>
     
   </div>
   
 
 </header>
 
-<p>Links to weekly readings</p>
+<section id="required" class="level2">
+<h2 class="anchored" data-anchor-id="required">Required</h2>
+<section id="ggplot2" class="level3">
+<h3 class="anchored" data-anchor-id="ggplot2"><code>ggplot2</code></h3>
+<ul>
+<li><a href="https://sph-r-programming.netlify.app/ggplot_flipbookr_berd/04_ggplot_slides.html">ggplot2 BERD workshop slides</a> - lots more on different <code>geoms</code> and how to customize plots</li>
+</ul>
+</section>
+<section id="dplyr" class="level3">
+<h3 class="anchored" data-anchor-id="dplyr"><code>dplyr</code></h3>
+<ul>
+<li><a href="https://rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf"><code>dplyr</code> cheatsheet</a> - one of the best references.</li>
+<li><a href="https://ubc-dsci.github.io/introduction-to-datascience/wrangling.html#combining-functions-using-the-pipe-operator">Combining functions using the pipe operator, %&gt;%</a> - if you’re confused about <code>%&gt;%</code>, please read this.</li>
+</ul>
+</section>
+</section>
+<section id="optional" class="level2">
+<h2 class="anchored" data-anchor-id="optional">Optional</h2>
+<section id="customizing-ggplot2" class="level3">
+<h3 class="anchored" data-anchor-id="customizing-ggplot2">Customizing ggplot2</h3>
+<p>If you are interested in learning more about ggplot:</p>
+<ul>
+<li><a href="https://rfortherestofus.com/2019/08/themes-to-improve-your-ggplot-figures/">Themes to improve your ggplot figures</a> by David Keyes is really helpful for learning how to do more styling.</li>
+<li>RStudio also publishes a <a href="https://github.com/rstudio/cheatsheets/blob/main/data-visualization-2.1.pdf">ggplot cheat sheet</a> that is really handy!</li>
+<li><a href="http://zevross.com/blog/2014/08/04/beautiful-plotting-in-r-a-ggplot2-cheatsheet-3/">Customizing ggplot2 Cheatsheet</a> is also handy, because it organizes ggplot2 commands by task.</li>
+<li>Documentation for all <code>ggplot</code> features is available <a href="https://ggplot2.tidyverse.org">here</a>.</li>
+</ul>
+</section>
+<section id="using-tidyselect-intermediate-level" class="level3">
+<h3 class="anchored" data-anchor-id="using-tidyselect-intermediate-level">Using <code>tidyselect</code> (Intermediate Level)</h3>
+<p>Remember, <code>select()</code> works on columns.</p>
+<p><code>tidyselect</code> lets you select columns by matching names. In conjunction with the <code>across()</code> command, you can apply the same operation to multiple columns at once. This is especially handy when you need to produce a summary on all numeric columns.</p>
+<p>You can run the <code>tidyselect</code> tutorial by first installing the <a href="https://github.com/laderast/tidyowl"><code>tidyowl</code> package by Ted Laderas</a>:</p>
+<pre><code>install.packages("remotes")
+remotes::install_github("laderast/tidyowl")</code></pre>
+<p>and then running this code in your Rstudio console window:</p>
+<pre><code>library(tidyowl)
+learn_tidyselect()</code></pre>
 
 
+</section>
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-table" id="listing-listing">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Order By</option>
-       <option value="index" data-direction="asc">Default</option>
-         <option value="listing-date-sort" data-direction="asc">
-          Date - Oldest
-        </option>
-         <option value="listing-date-sort" data-direction="desc">
-          Date - Newest
-        </option>
-         <option value="listing-title-sort" data-direction="asc">
-          Title
-        </option>
-     </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
-
-<table class="quarto-listing-table table table-hover">
-<thead>
-<tr>
-<th>
-<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Date</a>
-</th>
-<th>
-<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
-</th>
-<th>
-Description
-</th>
-</tr>
-</thead>
-<tbody class="list">
-<tr data-index="0" data-categories="" data-listing-date-sort="1704873600000" data-listing-file-modified-sort="1704891661614" data-listing-date-modified-sort="1707811200000" data-listing-reading-time-sort="2" data-listing-title-sort="Week 1 Readings" data-listing-filename-sort="01-reading.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<span class="listing-date">1/10/24</span>
-</td>
-<td>
-<a href="./readings/01-reading.html" class="title listing-title">Week 1 Readings</a>
-</td>
-<td>
-<span class="listing-description">Introduction to R/RStudio/Vectors</span>
-</td>
-</tr>
-<tr data-index="1" data-categories="" data-listing-date-sort="1705478400000" data-listing-file-modified-sort="1705560863600" data-listing-date-modified-sort="1707811200000" data-listing-reading-time-sort="1" data-listing-title-sort="Week 2 Readings" data-listing-filename-sort="02-reading.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<span class="listing-date">1/17/24</span>
-</td>
-<td>
-<a href="./readings/02-reading.html" class="title listing-title">Week 2 Readings</a>
-</td>
-<td>
-<span class="listing-description">Loading data, data.frames, and ggplot2</span>
-</td>
-</tr>
-<tr data-index="2" data-categories="" data-listing-date-sort="1706083200000" data-listing-file-modified-sort="1704442489325" data-listing-date-modified-sort="1707811200000" data-listing-reading-time-sort="1" data-listing-title-sort="Week 3 Readings" data-listing-filename-sort="03-reading.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<span class="listing-date">1/24/24</span>
-</td>
-<td>
-<a href="./readings/03-reading.html" class="title listing-title">Week 3 Readings</a>
-</td>
-<td>
-<span class="listing-description"><code>ggplot2</code>, factors, boxplots, <code>dplyr</code>: subsetting using <code>filter()</code>/<code>select()</code></span>
-</td>
-</tr>
-<tr data-index="3" data-categories="" data-listing-date-sort="1706688000000" data-listing-file-modified-sort="1706672659364" data-listing-date-modified-sort="1707811200000" data-listing-reading-time-sort="1" data-listing-title-sort="Week 4 Readings" data-listing-filename-sort="04-reading.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<span class="listing-date">1/31/24</span>
-</td>
-<td>
-<a href="./readings/04-reading.html" class="title listing-title">Week 4 Readings</a>
-</td>
-<td>
-<span class="listing-description"><code>dplyr</code>: <code>mutate()</code>, <code>across()</code>, ggplot: faceting, scales</span>
-</td>
-</tr>
-<tr data-index="4" data-categories="" data-listing-date-sort="1707292800000" data-listing-file-modified-sort="1707252874924" data-listing-date-modified-sort="1707811200000" data-listing-reading-time-sort="1" data-listing-title-sort="Week 5 Readings" data-listing-filename-sort="05-reading.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<span class="listing-date">2/7/24</span>
-</td>
-<td>
-<a href="./readings/05-reading.html" class="title listing-title">Week 5 Readings</a>
-</td>
-<td>
-<span class="listing-description">summarize() and group_by(), doing things with multiple tables (left_join() etc), reshaping data (i.e.&nbsp;pivot_longer())</span>
-</td>
-</tr>
-</tbody>
-
-</table>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

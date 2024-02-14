@@ -13,7 +13,10 @@
     "listing": "/readings.html",
     "items": [
       "/readings/01-reading.html",
-      "/readings/02-reading.html"
+      "/readings/02-reading.html",
+      "/readings/03-reading.html",
+      "/readings/04-reading.html",
+      "/readings/05-reading.html"
     ]
   }
 ]

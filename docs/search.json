@@ -221,7 +221,7 @@
     "href": "readings.html",
     "title": "Readings",
     "section": "",
-    "text": "Links to weekly readings\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\n1/10/24\n\n\nWeek 1 Readings\n\n\nIntroduction to R/RStudio/Vectors\n\n\n\n\n1/17/24\n\n\nWeek 2 Readings\n\n\nLoading data, data.frames, and ggplot2\n\n\n\n\n\n\nNo matching items"
+    "text": "Links to weekly readings\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\n1/10/24\n\n\nWeek 1 Readings\n\n\nIntroduction to R/RStudio/Vectors\n\n\n\n\n1/17/24\n\n\nWeek 2 Readings\n\n\nLoading data, data.frames, and ggplot2\n\n\n\n\n1/24/24\n\n\nWeek 3 Readings\n\n\nggplot2, factors, boxplots, dplyr: subsetting using filter()/select()\n\n\n\n\n1/31/24\n\n\nWeek 4 Readings\n\n\ndplyr: mutate(), across(), ggplot: faceting, scales\n\n\n\n\n2/7/24\n\n\nWeek 5 Readings\n\n\nsummarize() and group_by(), doing things with multiple tables (left_join() etc), reshaping data (i.e. pivot_longer())\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "weeks/week_01.html",
@@ -621,5 +621,68 @@
     "title": "Week 2 Readings",
     "section": "Optional (Meike’s suggestions for BSTA 526 W24)",
     "text": "Optional (Meike’s suggestions for BSTA 526 W24)\n\nProjects in RStudio resources list Meike created for BSTA 511.\nExploring missing values in naniar . The notes for week 2 refer to the visdat package for visualizing missing values in your data. I also recommend the naniar package, and the link above is a great tutorial with an introduction to some really useful visualizations for missingness."
+  },
+  {
+    "objectID": "readings/03-reading.html",
+    "href": "readings/03-reading.html",
+    "title": "Week 3 Readings",
+    "section": "",
+    "text": "ggplot2 BERD workshop slides - lots more on different geoms and how to customize plots\n\n\n\n\n\ndplyr cheatsheet - one of the best references.\nCombining functions using the pipe operator, %&gt;% - if you’re confused about %&gt;%, please read this."
+  },
+  {
+    "objectID": "readings/03-reading.html#required",
+    "href": "readings/03-reading.html#required",
+    "title": "Week 3 Readings",
+    "section": "",
+    "text": "ggplot2 BERD workshop slides - lots more on different geoms and how to customize plots\n\n\n\n\n\ndplyr cheatsheet - one of the best references.\nCombining functions using the pipe operator, %&gt;% - if you’re confused about %&gt;%, please read this."
+  },
+  {
+    "objectID": "readings/03-reading.html#optional",
+    "href": "readings/03-reading.html#optional",
+    "title": "Week 3 Readings",
+    "section": "Optional",
+    "text": "Optional\n\nCustomizing ggplot2\nIf you are interested in learning more about ggplot:\n\nThemes to improve your ggplot figures by David Keyes is really helpful for learning how to do more styling.\nRStudio also publishes a ggplot cheat sheet that is really handy!\nCustomizing ggplot2 Cheatsheet is also handy, because it organizes ggplot2 commands by task.\nDocumentation for all ggplot features is available here.\n\n\n\nUsing tidyselect (Intermediate Level)\nRemember, select() works on columns.\ntidyselect lets you select columns by matching names. In conjunction with the across() command, you can apply the same operation to multiple columns at once. This is especially handy when you need to produce a summary on all numeric columns.\nYou can run the tidyselect tutorial by first installing the tidyowl package by Ted Laderas:\ninstall.packages(\"remotes\")\nremotes::install_github(\"laderast/tidyowl\")\nand then running this code in your Rstudio console window:\nlibrary(tidyowl)\nlearn_tidyselect()"
+  },
+  {
+    "objectID": "readings/04-reading.html",
+    "href": "readings/04-reading.html",
+    "title": "Week 4 Readings",
+    "section": "",
+    "text": "Data Transformation (3.1-3.3) from R for Data Science\nggplot2: Elegant Graphics for Data Analysis, Scales & Guides\nR for Data Science: Factors - we will continue to work with factors in the next few classes with forcats examples like provided here."
+  },
+  {
+    "objectID": "readings/04-reading.html#required",
+    "href": "readings/04-reading.html#required",
+    "title": "Week 4 Readings",
+    "section": "",
+    "text": "Data Transformation (3.1-3.3) from R for Data Science\nggplot2: Elegant Graphics for Data Analysis, Scales & Guides\nR for Data Science: Factors - we will continue to work with factors in the next few classes with forcats examples like provided here."
+  },
+  {
+    "objectID": "readings/04-reading.html#optional",
+    "href": "readings/04-reading.html#optional",
+    "title": "Week 4 Readings",
+    "section": "Optional",
+    "text": "Optional\n\nTidyverse style guide\nAdvanced R: style guide\nacross(): This column-wise operations vignette will be useful for the next couple classes."
+  },
+  {
+    "objectID": "readings/05-reading.html",
+    "href": "readings/05-reading.html",
+    "title": "Week 5 Readings",
+    "section": "",
+    "text": "group_by() Data Transformation (3.5-3.6) from R for Data Science (2e)\n\nThe 1st edition’s Section 5.6 on Grouped summaries with summarise() is more detailed (wordier) and worth looking at as well.\nThe 1st edition also has Section 5.7 on Grouped mutates (and filters) that I did not see in the 2nd edition. Please let me know if you find this content in the 2nd edition!\n\nAggregating data with summarize and map - we will cover map() and rowwise() later, but summarize and mutate with across are described here. You may want to re-visit this when we get to purrr."
+  },
+  {
+    "objectID": "readings/05-reading.html#required",
+    "href": "readings/05-reading.html#required",
+    "title": "Week 5 Readings",
+    "section": "",
+    "text": "group_by() Data Transformation (3.5-3.6) from R for Data Science (2e)\n\nThe 1st edition’s Section 5.6 on Grouped summaries with summarise() is more detailed (wordier) and worth looking at as well.\nThe 1st edition also has Section 5.7 on Grouped mutates (and filters) that I did not see in the 2nd edition. Please let me know if you find this content in the 2nd edition!\n\nAggregating data with summarize and map - we will cover map() and rowwise() later, but summarize and mutate with across are described here. You may want to re-visit this when we get to purrr."
+  },
+  {
+    "objectID": "readings/05-reading.html#optional",
+    "href": "readings/05-reading.html#optional",
+    "title": "Week 5 Readings",
+    "section": "Optional",
+    "text": "Optional\n\nThis column-wise operations vignette will be useful for the next couple classes.\n\nThe following resources are optional reading, but quite helpful in your Quarto journey.\n\nQuarto Cheatsheet\nQuarto Guide\nQuarto Reference\nChapter 28: Quarto from R for Data Science (2e)"
   }
 ]
