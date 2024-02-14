@@ -2,15 +2,36 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "BSTA_526_W24",
+    "title": "Welcome to BSTA 526!",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "Welcome to BSTA 526!\n\nR Programming for Health Data Science\nWinter 2024\nOHSU-PSU School of Public Health\nOregon Health & Science University\n\n\n\n\n\n\n\nInstructors\n Meike Niederhausen, PhD\nniederha@ohsu.edu\n Emile Latour, MS\nlatour@ohsu.edu\n\n\nCourse details\n Wednesdays\n3:15 pm - 6:05 pm\nIn-person\nSee schedule for room information\n\n\nOffice Hours\n\nSee Sakai for Webex links to office hours.\nMondays 3:00-4:00 pm (Emile)\nTuesdays 7:30-8:30 pm (Tia)\nWednesdays 6:05-7:05 pm (Tia) - Contact Tia to set up in-person option in classroom for Wed office hour\nFridays 3:30-4:30 pm (Meike; starting Feb 9th)\n\n\n\n\n\nContacting us\nE-mail or Slack is the best way to get in contact with us.\nWe will try to respond to all course-related e-mails within 24 hours Monday-Friday.\n\n\n\n\n\n\n\n\n View the source on GitHub"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "Assistant Professor of Biostatistics in the OHSU-PSU School of Public Health\nFaculty Biostatistician for OHSU’s Biostatistics & Design Program\nAffiliate Investigator for the HSR&D Center to Improve Veteran Involvement in Care (CIVIC) at the Portland VA\n\n\n\n\n\nSenior Biostatistician in the Biostatistics Shared Resource of OHSU’s Knight Cancer Institute."
+  },
+  {
+    "objectID": "about.html#instructors",
+    "href": "about.html#instructors",
+    "title": "About",
+    "section": "",
+    "text": "Assistant Professor of Biostatistics in the OHSU-PSU School of Public Health\nFaculty Biostatistician for OHSU’s Biostatistics & Design Program\nAffiliate Investigator for the HSR&D Center to Improve Veteran Involvement in Care (CIVIC) at the Portland VA\n\n\n\n\n\nSenior Biostatistician in the Biostatistics Shared Resource of OHSU’s Knight Cancer Institute."
+  },
+  {
+    "objectID": "about.html#course-info",
+    "href": "about.html#course-info",
+    "title": "About",
+    "section": "Course info",
+    "text": "Course info\nThis webpage was created for BSTA 526 (R Programming for Health Data Science) in the OHSU-PSU School of Public Health."
+  },
+  {
+    "objectID": "about.html#acknowledgements",
+    "href": "about.html#acknowledgements",
+    "title": "About",
+    "section": "Acknowledgements",
+    "text": "Acknowledgements\n\nBSTA 526 class materials\n\nBSTA 526 was taught in previous years as BSTA 504 by Ted Laderas (2021) and Jessica Minnier (2022, 2023).\nAlmost all course materials were created by Ted and Jessica with minor changes for BSTA 526 (such as updating from RMarkdown to Quarto). Their work is licensed under a Creative Commons Attribution 4.0 International License. See previous class websites linked to above for links to their source code on GitHub.\n\n\n\nQuarto webpage\n\nThank you to Nicky Wakim for creating her amazing webpage for BSTA 550, and sharing her code on GitHub. Having her template made creating this website a much smoother process.\nThank you also to Andrew Bray for presenting the From R Markdown to Quarto ASA Travelling Workshop to the Oregon Chapter of the ASA in June 2023. This workshop was a great starting point in making the switch from RMarkdown to Quarto and also create Quarto webpages."
   }
 ]
