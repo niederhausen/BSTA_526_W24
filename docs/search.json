@@ -214,7 +214,7 @@
     "href": "weeks.html",
     "title": "Weekly Pages",
     "section": "",
-    "text": "Links to weekly pages\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\n1/10/24\n\n\nWeek 1\n\n\nIntro to R/RStudio, Functions, Vectors, Data Types\n\n\n\n\n1/17/24\n\n\nWeek 2\n\n\nProjects, data frames, reading in data, visualizing data with ggplot2\n\n\n\n\n1/24/24\n\n\nWeek 3\n\n\nErrors, more data loading, data manipulation, ggplot themes, factors\n\n\n\n\n1/31/24\n\n\nWeek 4\n\n\nmutate(), case_when(), more ggplot2\n\n\n\n\n2/7/24\n\n\nWeek 5\n\n\nData summarizing, reshaping, and wrangling with multiple tables\n\n\n\n\n2/14/24\n\n\nWeek 6\n\n\nStart with your goal: more data wrangling\n\n\n\n\n\n\nNo matching items"
+    "text": "Links to weekly pages\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\n1/10/24\n\n\nWeek 1\n\n\nIntro to R/RStudio, Functions, Vectors, Data Types\n\n\n\n\n1/17/24\n\n\nWeek 2\n\n\nProjects, data frames, reading in data, visualizing data with ggplot2\n\n\n\n\n1/24/24\n\n\nWeek 3\n\n\nErrors, more data loading, data manipulation, ggplot themes, factors\n\n\n\n\n1/31/24\n\n\nWeek 4\n\n\nmutate(), case_when(), more ggplot2\n\n\n\n\n2/7/24\n\n\nWeek 5\n\n\nData summarizing, reshaping, and wrangling with multiple tables\n\n\n\n\n2/14/24\n\n\nWeek 6\n\n\nStart with your goal: more data wrangling\n\n\n\n\n2/21/24\n\n\nWeek 7\n\n\nStart with your goal: more data wrangling\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "readings.html",
@@ -823,7 +823,7 @@
     "href": "weeks/week_06.html#topics",
     "title": "Week 6",
     "section": "Topics",
-    "text": "Topics\n\nFinish week 5\n\nWe will first finish the material not covered from Week 5, starting with section 4.6.\n\nNote: I created a new version of the code file (inside the code folder) called part_05_b526_v2.qmd/.html.\nI decided not to move the Week 5 material not covered to the Week 6 notes.\n\n\nFrom Week 5:\n\nLearn how to summarize() data with group_by() to summarize within categories\nLearn about the different kinds of joins and how they merge data\n\nApply inner_join() and left_join() to join tables on columns\n\nUtilize pivot_longer() to make a wide dataset long\n\n\n\nNew Week 6 topics\n\nPractice working with real data\nPractice joining and pivoting\nPractice ggplot and learn more geometries\nLearn how to deal with missing data"
+    "text": "Topics\n\nFinish week 5\n\nWe will first finish the material not covered from Week 5, starting with section 4.6.\n\nNote: I created a new version of the code file (inside the code folder) called part_05_b526_v2.qmd/.html.\nI decided not to move the Week 5 material not covered to the Week 6 notes.\n\n\nFrom Week 5:\n\nLearn how to summarize() data with group_by() to summarize within categories\nLearn about the different kinds of joins and how they merge data\n\nApply inner_join() and left_join() to join tables on columns\n\nUtilize pivot_longer() to make a wide dataset long\n\n\n\nNew Week 6 topics - did not get to Part 6\n\nPractice working with real data\nPractice joining and pivoting\nPractice ggplot and learn more geometries\nLearn how to deal with missing data"
   },
   {
     "objectID": "weeks/week_06.html#class-materials",
@@ -880,5 +880,103 @@
     "title": "Week 5",
     "section": "what functions will only work within another function (generally)",
     "text": "what functions will only work within another function (generally)\n\nI’m not aware of functions that only work standalone within other functions. For example, the mean() function works on its own, but can also be used within a summarise().\n\n\nmean(penguins$bill_length_mm, na.rm = TRUE)\n\n[1] 43.92193\n\npenguins %&gt;% summarise(\n  m = mean(bill_length_mm, na.rm = TRUE)\n)\n\n# A tibble: 1 × 1\n      m\n  &lt;dbl&gt;\n1  43.9\n\n\n\nThat being said, a function has a set of parameters to be specified that are specific to that function."
+  },
+  {
+    "objectID": "weeks/week_07.html",
+    "href": "weeks/week_07.html",
+    "title": "Week 7",
+    "section": "",
+    "text": "HW 7 is in the part 6 folder\nHW 6: see the updated HW 6 assignment on OneDrive in the pat06 folder called hw_06_b526-final-version.qmd\nMidterm: due date extended to 2/25/24.\n\nSee the updated midterm file on OneDrive with new yaml, due date, and links to previous midterm projects.\n\n\n\n\n\nThis is a reminder that 5% of your grade is based on filling out post-class surveys as a way of telling us that you came to class and engaged with the material for that week.\nYou only need to fill out 5 surveys (of the 10 class sessions) for the full 5%. We encourage you to fill out as many surveys as possible to provide feedback on the class though.\nPlease fill out surveys by 8 pm on Sunday evenings to guarantee that they will be counted. We usually download them some time on Sunday evening or Monday. If you turn it in before we download the responses, it will get counted.\n\nSee syllabus section on Post-class surveys"
+  },
+  {
+    "objectID": "weeks/week_07.html#announcements",
+    "href": "weeks/week_07.html#announcements",
+    "title": "Week 7",
+    "section": "",
+    "text": "HW 7 is in the part 6 folder\nHW 6: see the updated HW 6 assignment on OneDrive in the pat06 folder called hw_06_b526-final-version.qmd\nMidterm: due date extended to 2/25/24.\n\nSee the updated midterm file on OneDrive with new yaml, due date, and links to previous midterm projects.\n\n\n\n\n\nThis is a reminder that 5% of your grade is based on filling out post-class surveys as a way of telling us that you came to class and engaged with the material for that week.\nYou only need to fill out 5 surveys (of the 10 class sessions) for the full 5%. We encourage you to fill out as many surveys as possible to provide feedback on the class though.\nPlease fill out surveys by 8 pm on Sunday evenings to guarantee that they will be counted. We usually download them some time on Sunday evening or Monday. If you turn it in before we download the responses, it will get counted.\n\nSee syllabus section on Post-class surveys"
+  },
+  {
+    "objectID": "weeks/week_07.html#topics",
+    "href": "weeks/week_07.html#topics",
+    "title": "Week 7",
+    "section": "Topics",
+    "text": "Topics\n\nPart 6\n\nPractice working with real data\nPractice joining and pivoting\nPractice ggplot and learn more geometries\nLearn how to deal with missing data"
+  },
+  {
+    "objectID": "weeks/week_07.html#class-materials",
+    "href": "weeks/week_07.html#class-materials",
+    "title": "Week 7",
+    "section": "Class materials",
+    "text": "Class materials\n\nWeek 6 Readings\nOne Drive part_06 Project folders"
+  },
+  {
+    "objectID": "weeks/week_07.html#post-class-survey",
+    "href": "weeks/week_07.html#post-class-survey",
+    "title": "Week 7",
+    "section": "Post-class survey",
+    "text": "Post-class survey\n\nPlease fill out the post-class survey to provide feedback. Thank you!"
+  },
+  {
+    "objectID": "weeks/week_07.html#homework",
+    "href": "weeks/week_07.html#homework",
+    "title": "Week 7",
+    "section": "Homework",
+    "text": "Homework\n\nSee OneDrive folder for homework assignment.\nHW 7 due on 2/28. Assignment is in the part 6 folder."
+  },
+  {
+    "objectID": "weeks/week_07.html#recording",
+    "href": "weeks/week_07.html#recording",
+    "title": "Week 7",
+    "section": "Recording",
+    "text": "Recording\n\nIn-class recording links are on Sakai. Navigate to Course Materials -&gt; Schedule with links to in-class recordings. Note that the password to the recordings is at the top of the page."
+  },
+  {
+    "objectID": "weeks/week_06.html#across",
+    "href": "weeks/week_06.html#across",
+    "title": "Week 6",
+    "section": "across()",
+    "text": "across()\nwhat exactly the across function does\n.fns, i.e. .fns=list, etc… I wasn’t really sure what that was achieving within across.\n\nThe across() function lets us apply a function to many columns at once.\nFor example, let’s say we want the mean value for every continuous variable in a dataset.\n\nThe code below calculates the mean for one variable in the penguins dataset using both base R and summarize().\nOne option to calculate the mean value for every continuous variable in the dataset is to repeat this code for the 4 other continuous variables.\n\n\n\nlibrary(tidyverse)\nlibrary(janitor)\nlibrary(palmerpenguins)\nlibrary(gt)\n\nsummary(penguins)\n\n      species          island    bill_length_mm  bill_depth_mm  \n Adelie   :152   Biscoe   :168   Min.   :32.10   Min.   :13.10  \n Chinstrap: 68   Dream    :124   1st Qu.:39.23   1st Qu.:15.60  \n Gentoo   :124   Torgersen: 52   Median :44.45   Median :17.30  \n                                 Mean   :43.92   Mean   :17.15  \n                                 3rd Qu.:48.50   3rd Qu.:18.70  \n                                 Max.   :59.60   Max.   :21.50  \n                                 NA's   :2       NA's   :2      \n flipper_length_mm  body_mass_g       sex           year     \n Min.   :172.0     Min.   :2700   female:165   Min.   :2007  \n 1st Qu.:190.0     1st Qu.:3550   male  :168   1st Qu.:2007  \n Median :197.0     Median :4050   NA's  : 11   Median :2008  \n Mean   :200.9     Mean   :4202                Mean   :2008  \n 3rd Qu.:213.0     3rd Qu.:4750                3rd Qu.:2009  \n Max.   :231.0     Max.   :6300                Max.   :2009  \n NA's   :2         NA's   :2                                 \n\n  # base R\nmean(penguins$bill_length_mm, na.rm = TRUE)\n\n[1] 43.92193\n\n# with summarize\npenguins %&gt;% \n  summarize(mean(bill_length_mm, na.rm = TRUE))\n\n# A tibble: 1 × 1\n  `mean(bill_length_mm, na.rm = TRUE)`\n                                 &lt;dbl&gt;\n1                                 43.9\n\n\n\nIn this case across() lets us apply the mean function to all the columns of interest at once:\n\n\npenguins %&gt;%\n  summarize(across(.cols = where(is.numeric), \n                   .fns = ~ mean(.x, na.rm = TRUE)\n                   )) %&gt;% \n  gt()\n\n\n\n\n\n  \n    \n    \n      bill_length_mm\n      bill_depth_mm\n      flipper_length_mm\n      body_mass_g\n      year\n    \n  \n  \n    43.92193\n17.15117\n200.9152\n4201.754\n2008.029\n  \n  \n  \n\n\n\n\n\nThe .fns=list part of the across code is where we specify the function(s) that we want to apply to the specified columns.\n\nAbove we only specified one function (mean()), but we can specify additional functions as well, which is when we need to create a list to list all the functions we want to apply.\nBelow I apply the mean and standard deviation functions:\n\n\n\npenguins %&gt;%\n  summarize(across(.cols = where(is.numeric), \n                   .fns = list(\n                     mean = ~ mean(.x, na.rm = TRUE),\n                     sd = ~ sd(.x, na.rm = TRUE)\n                     ))) %&gt;% \n  gt()\n\n\n\n\n\n  \n    \n    \n      bill_length_mm_mean\n      bill_length_mm_sd\n      bill_depth_mm_mean\n      bill_depth_mm_sd\n      flipper_length_mm_mean\n      flipper_length_mm_sd\n      body_mass_g_mean\n      body_mass_g_sd\n      year_mean\n      year_sd\n    \n  \n  \n    43.92193\n5.459584\n17.15117\n1.974793\n200.9152\n14.06171\n4201.754\n801.9545\n2008.029\n0.8183559\n  \n  \n  \n\n\n\n\n\nIn general, lists are another type of R object to store information, whether data, lists of functions, output from regression models, etc. While concatenate is just a vector of values, lists are multidimensional. We will be learning more about lists in parts 7 and 8.\nYou can learn more about across() at its help file."
+  },
+  {
+    "objectID": "weeks/week_06.html#case_when-vs-ifelse",
+    "href": "weeks/week_06.html#case_when-vs-ifelse",
+    "title": "Week 6",
+    "section": "case_when() vs ifelse()",
+    "text": "case_when() vs ifelse()\nstill a little confused on the difference between ifelse and casewhen, understand they are very similar but still confused on when it is best to use one over another\n\nThe two functions can be used interchangeably. * ifelse() is the original function from base R\n\ncase_when() is the user-friendly version of ifelse() from the dplyr package\n\nI recommend using case_when(), and it is what I use almost exclusively in my own work. My guess is that ifelse() was included in the notes since you might run into the function when reading R code on the internet.\nJust be careful that you preserve missing values when using case_when() as we discussed last time."
+  },
+  {
+    "objectID": "weeks/week_06.html#factor-levels",
+    "href": "weeks/week_06.html#factor-levels",
+    "title": "Week 6",
+    "section": "factor levels",
+    "text": "factor levels\nworking with factor levels doesn’t feel totally intuitive yet. I think that’s because I tend to get confused with anything involving a concatenated list.\n\nWorking with factor variables takes a while to get used to, and in particular with their factor levels.\nWe will be looking at more examples with factor variables in the part 6 notes. See sections 2.8 and 4.\nYou can think of a concatenated list(c(...)) as a vector of values or a column of a dataset. Concatenating lets us create a set of values, which we typically create to use for some other purpose, such as specifying the levels of a factor variable.\nPlease submit a follow-up question in the post-class survey if this is still muddy after today’s class!"
+  },
+  {
+    "objectID": "weeks/week_06.html#pivoting-tables",
+    "href": "weeks/week_06.html#pivoting-tables",
+    "title": "Week 6",
+    "section": "pivoting tables",
+    "text": "pivoting tables\n\nDefinitely a tricky topic, and over half of the muddiest points were about pivoting tables.\nWe will be looking at more examples in part 6.\n\n\nHow pivot_longer() would work on very large datasets with many rows/columns\n\nIt works the same way. However the resulting long table will end up being much much longer.\nExtra columns in the dataset just hang out and their values get repeated (such as an age variable that is not being made long by) over and over again.\n\nWe will be pivoting a dataset in part 6 that has extra variables that are not being pivoted.\n\n\n\n\nTrying to visualize the joins and pivot longer/wider\n\nI recommend trying them out with small datasets where you can actually see what is happening.\nJoins: Our BERD workshop slides have another example that might visualize joins.\n\nSlide 18 shows to datasets x and y, and what the resulting joins look like.\nSlide 19 shows Venn diagrams of how the different joins behave.\n\nPivoting: There’s an example with a very small dataset in my (supplemental) notes from BSTA 511. The graphic that goes along with this is on Slide 28 from the pdf.\n\n\n\npivot_longer makes plotting more understandable in an analysis sense, which situations would call for pivot_wider?\n\nI tend to use pivot_longer() much more frequently. However, there are times when pivot_wider() comes in handy. For example, below is a long table of summary statistics created with group_by() and summarize(). I would use pivot_wider() to reshape this table so that I have columns comparing species or columns comparing islands.\n\n\npenguins %&gt;% \n  group_by(species, island) %&gt;%\n  summarize(across(.cols = bill_length_mm, \n                   .fns = list(\n                     mean = ~ mean(.x, na.rm = TRUE),\n                     sd = ~ sd(.x, na.rm = TRUE)\n                     )))\n\n`summarise()` has grouped output by 'species'. You can override using the\n`.groups` argument.\n\n\n# A tibble: 5 × 4\n# Groups:   species [3]\n  species   island    bill_length_mm_mean bill_length_mm_sd\n  &lt;fct&gt;     &lt;fct&gt;                   &lt;dbl&gt;             &lt;dbl&gt;\n1 Adelie    Biscoe                   39.0              2.48\n2 Adelie    Dream                    38.5              2.47\n3 Adelie    Torgersen                39.0              3.03\n4 Chinstrap Dream                    48.8              3.34\n5 Gentoo    Biscoe                   47.5              3.08\n\n\n\n\nHow to use arguments of pivot longer.\n\nThe arguments of the pivot functions take some practice to get used to. I sometimes still pull up an example to remind me what I need to specify for the various arguments, such as the one mentioned above that I have used in workshops and classes.\n\nWe have not covered all the different arguments, and I recommend reviewing the help file and in particular the examples at the end of the page."
+  },
+  {
+    "objectID": "weeks/week_06.html#gtgt",
+    "href": "weeks/week_06.html#gtgt",
+    "title": "Week 6",
+    "section": "gt::gt()",
+    "text": "gt::gt()\nThe gt::gt package does make the tables look fancier, how do we add labels to those to have them look nice as well?\n\nI highly recommend the gt webpage to learn more about all the different options to create pretty tables. Note the tabs at the top of the page for “Get started” and “Reference.”\nSee also section 3 of part 6 on “Side note about gt::gt()” for more on creating pretty tables."
+  },
+  {
+    "objectID": "weeks/week_06.html#herehere",
+    "href": "weeks/week_06.html#herehere",
+    "title": "Week 6",
+    "section": "here::here",
+    "text": "here::here\nwould also love more examples of here() I am starting to understand it better but still am a little confused\nI am still having trouble getting here() to work consistently. I was going to ask during class, but I think I am just not understanding how to manually nest my files correctly so that “here” works. I am struggling to get that set up correct, and thus, struggling to use it. \n\nWe’ll have some more examples in class, but I recommend reaching out to one of us (instructors or TA) to help you troubleshoot here::here.\nHere are also some resources that might help\n\nhttps://here.r-lib.org/articles/here.html\nhttp://jenrichmond.rbind.io/post/how-to-use-the-here-package/\nhttps://github.com/jennybc/here_here"
+  },
+  {
+    "objectID": "weeks/week_06.html#clearest-points",
+    "href": "weeks/week_06.html#clearest-points",
+    "title": "Week 6",
+    "section": "Clearest points",
+    "text": "Clearest points\n\ngroup_by() function (n=3)\nsummarize() (n=2)\nacross() (n=1)\ncase_when() (n=1)\ndrop_na( ) (n=2)\nJoining tables (n=6)"
   }
 ]
