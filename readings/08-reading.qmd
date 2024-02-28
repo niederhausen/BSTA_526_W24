@@ -26,7 +26,6 @@ editor_options:
 
 - [Vectors and Lists](https://jennybc.github.io/purrr-tutorial/bk00_vectors-and-lists.html) - Jenny Bryan
 - [Introduction to map()](https://jennybc.github.io/purrr-tutorial/ls01_map-name-position-shortcuts.html) - Jenny Bryan
-- [Harvard Chan Bioinformatics Core’s lesson on "Functions in R"](https://hbctraining.github.io/Intro-to-R-flipped/lessons/03_introR-functions-and-arguments.html)
 - [Software Carpentry’s lesson on functions in R](https://swcarpentry.github.io/r-novice-inflammation/02-func-R.html)
 
 
