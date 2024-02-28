@@ -61,7 +61,115 @@ _See [syllabus section on Post-class surveys](https://niederhausen.github.io/BST
 * __In-class__ recording links are on [Sakai](https://sakai.ohsu.edu/portal/site/BSTA-526-1-AX-W24/tool/a973f2a2-ea06-4734-aab7-a066c5573ca6/ShowPage?returnView=&studentItemId=0&backPath=&bltiAppStores=false&errorMessage=&clearAttr=&messageId=&source=&title=&newTopLevel=false&sendingPage=190949&postedComment=false&addBefore=&itemId=5172228&path=push&topicId=&addTool=-1&recheck=&id=&forumId=). Navigate to _Course Materials_ -> _Schedule with links to in-class recordings_. Note that the password to the recordings is at the top of the page. 
 
 
-# Feedback from post-class surveys
+# Muddiest points from Week 7
 
 * Week 7 feedback will be added during Week 6.
 * See Week 6 page for [Week 6 feedback](week_06.qmd#muddiest-points-from-week-6).
+
+
+
+
+>Why we used `full_join()` in the class example instead of the other join options
+
+>pivot-longer is still hard for me to mentally visualize how it alters the dataset.
+
+>I always struggle to visualize pivots and joins. 
+
+>`mutate(factor ( )) `problem we ran into in class where Emile posted on Slack.
+
+### `%in%`
+
+>`%in%` command, I feel like I understand but have some confusion and think it might just be one of those things I have to work with/apply to fully understand 
+
+* We've used the `%in%` function in some examples, but I don't think we've discussed it in detail.
+
+* The %in% function is used to __test whether elements of one vector are contained in another vector__. It returns a logical vector indicating whether each element of the first vector is found in the second vector.
+
+* Below are some examples that ChatGPT generated (and I slightly edited). 
+
+```{r}
+#| warning: false
+
+# Example 1: Using %in% with two numeric vectors
+x <- c(1, 2, 3, 4, 5)
+y <- c(2, 4, 6)
+
+x %in% y
+
+# Example 2: Using %in% with two character vectors
+fruits <- c("apple", "banana", "orange", "grape")
+selected_fruits <- c("banana", "grape", "kiwi")
+
+selected_fruits %in% fruits
+
+# Example 3: Using %in% with dataframe columns
+library(tidyverse)
+
+# Create a dataframe
+df <- tibble(
+  ID = c(1, 2, 3, 4, 5),
+  fruit = c("apple", "banana", "orange", "grape", "kiwi")
+)
+
+df
+
+# Filter rows where 'fruit' column contains values from selected_fruits
+selected_fruits <- c("banana", "grape", "kiwi")
+
+df_filtered <- df %>%
+  filter(fruit %in% selected_fruits)
+
+df_filtered
+
+```
+
+
+
+
+## Clearest points
+
+> This class was all really clear. It was helpful to be reviewing some of the things we learned last week.
+
+> I appreciate the new codes on how to clean/reshape/combine messy data. I think that was the hardest parts to do in the other Biostatistics courses during projects.
+
+> Data cleaning
+
+> Most of the data cleaning exercises. 
+
+> different strategies to clean data sets
+
+> The data cleaning made a lot of sense but I think I will struggle with solving problems in a really inefficient way.
+
+> Everything before Challenge 3
+
+> methods to merge datasets to create a table
+
+> inner join and full join are the same if all vectors are the same.
+
+> Pivot 
+
+> ggplot and how to code data in to display what we want to display 
+
+
+
+
+
+## Other comments
+
+
+> Is there a difference between summarize (with z) and summarise (with s)?
+
+Great question! 
+
+* In English, summarize is American English and summarise is British English. * In R they work the same way. The [reference page for `summarise()`](https://dplyr.tidyverse.org/reference/summarise.html) lists them as synonyms.
+* In R code I see summarise more, and now keep mixing up which is American and which is British. 
+* In general, R accepts both American and British English, such as both color and colour. 
+
+> Thank you for the survey reminders! The pace of the class feels much better compared to the pace at the beginning of the term
+
+Thanks for the feedback!
+
+
+> I really enjoyed the walk through from start to finish of how to clean the data sheet and it really helped clear up many of the commands I was previously confused about 
+
+Thanks for the feedback! Glad the data wrangling walk through was helpful. 
