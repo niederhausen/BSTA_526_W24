@@ -23,11 +23,11 @@ editor_options:
 |                         | 2/7  | **Take Home Midterm Assigned**                                                                                        |                   |            |
 | [6](weeks/week_06.qmd)  | 2/14 | More data wrangling practice                                                                                          | RPV 1217          | Meike      |
 |                         |      |                                                                                                                       |                   |            |
-| [7](weeks/week_07.qmd)  | 2/21 | Intro to functions, working with lists                                                                                | RPV 1217          | Emile      |
+| [7](weeks/week_07.qmd)  | 2/21 | More data wrangling practice                                                                                          | RPV 1217          | Meike      |
 |                         | 2/25 | **Take home midterm due (Sunday)**                                                                                    |                   |            |
-| [8](weeks/week_08.qmd)  | 2/28 | Functions/batch processing/purrr                                                                                      | RPV 1217          | Emile      |
-| [9](weeks/week_09.qmd)  | 3/6  | Functions/batch processing/purrr                                                                                      | RLSB 2S014/ 2S018 | Emile      |
+| [8](weeks/week_08.qmd)  | 2/28 | Intro to functions, working with lists                                                                                | RPV 1217          | Emile      |
+| [9](weeks/week_09.qmd)  | 3/6  | Intro to functions, working with lists cont'd                                                                         | RLSB 2S014/ 2S018 | Emile      |
 |           10            | 3/10 | **Final Project Assigned (Monday)**                                                                                   |                   |            |
-| [10](weeks/week_10.qmd) | 3/13 | Intro to stats/formulas/broom/More Purrr                                                                              | RPV 1217          | Meike      |
+| [10](weeks/week_10.qmd) | 3/13 | Functions/batch processing/purrr; Intro to stats/formulas/broom/More Purrr                                            | RPV 1217          | Emile      |
 |           11            | 3/20 | No Class, Office Hour                                                                                                 | RPV 1217          |            |
 |                         | 3/22 | **Final Project Due**                                                                                                 |                   |            |
