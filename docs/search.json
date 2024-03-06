@@ -214,7 +214,7 @@
     "href": "weeks.html",
     "title": "Weekly Pages",
     "section": "",
-    "text": "Links to weekly pages\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\n1/10/24\n\n\nWeek 1\n\n\nIntro to R/RStudio, Functions, Vectors, Data Types\n\n\n\n\n1/17/24\n\n\nWeek 2\n\n\nProjects, data frames, reading in data, visualizing data with ggplot2\n\n\n\n\n1/24/24\n\n\nWeek 3\n\n\nErrors, more data loading, data manipulation, ggplot themes, factors\n\n\n\n\n1/31/24\n\n\nWeek 4\n\n\nmutate(), case_when(), more ggplot2\n\n\n\n\n2/7/24\n\n\nWeek 5\n\n\nData summarizing, reshaping, and wrangling with multiple tables\n\n\n\n\n2/14/24\n\n\nWeek 6\n\n\nStart with your goal: more data wrangling\n\n\n\n\n2/21/24\n\n\nWeek 7\n\n\nStart with your goal: more data wrangling\n\n\n\n\n2/28/24\n\n\nWeek 8\n\n\nLists and Functions\n\n\n\n\n\n\nNo matching items"
+    "text": "Links to weekly pages\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\n1/10/24\n\n\nWeek 1\n\n\nIntro to R/RStudio, Functions, Vectors, Data Types\n\n\n\n\n1/17/24\n\n\nWeek 2\n\n\nProjects, data frames, reading in data, visualizing data with ggplot2\n\n\n\n\n1/24/24\n\n\nWeek 3\n\n\nErrors, more data loading, data manipulation, ggplot themes, factors\n\n\n\n\n1/31/24\n\n\nWeek 4\n\n\nmutate(), case_when(), more ggplot2\n\n\n\n\n2/7/24\n\n\nWeek 5\n\n\nData summarizing, reshaping, and wrangling with multiple tables\n\n\n\n\n2/14/24\n\n\nWeek 6\n\n\nStart with your goal: more data wrangling\n\n\n\n\n2/21/24\n\n\nWeek 7\n\n\nStart with your goal: more data wrangling\n\n\n\n\n2/28/24\n\n\nWeek 8\n\n\nLists and Functions\n\n\n\n\n3/6/24\n\n\nWeek 9\n\n\nLists and Functions (continued)\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "readings.html",
@@ -1111,5 +1111,68 @@
     "title": "Week 7",
     "section": "Other comments",
     "text": "Other comments\n\nIs there a difference between summarize (with z) and summarise (with s)?\n\nGreat question!\n\nIn English, summarize is American English and summarise is British English. * In R they work the same way. The reference page for summarise() lists them as synonyms.\nIn R code I see summarise more, and now keep mixing up which is American and which is British.\nIn general, R accepts both American and British English, such as both color and colour.\n\n\nThank you for the survey reminders! The pace of the class feels much better compared to the pace at the beginning of the term\n\nThanks for the feedback!\n\nI really enjoyed the walk through from start to finish of how to clean the data sheet and it really helped clear up many of the commands I was previously confused about\n\nThanks for the feedback! Glad the data wrangling walk through was helpful."
+  },
+  {
+    "objectID": "weeks/week_09.html",
+    "href": "weeks/week_09.html",
+    "title": "Week 9",
+    "section": "",
+    "text": "This is a reminder that 5% of your grade is based on filling out post-class surveys as a way of telling us that you came to class and engaged with the material for that week.\nYou only need to fill out 5 surveys (of the 10 class sessions) for the full 5%. We encourage you to fill out as many surveys as possible to provide feedback on the class though.\nPlease fill out surveys by 8 pm on Sunday evenings to guarantee that they will be counted. We usually download them some time on Sunday evening or Monday. If you turn it in before we download the responses, it will get counted.\n\nSee syllabus section on Post-class surveys"
+  },
+  {
+    "objectID": "weeks/week_09.html#announcements",
+    "href": "weeks/week_09.html#announcements",
+    "title": "Week 9",
+    "section": "",
+    "text": "This is a reminder that 5% of your grade is based on filling out post-class surveys as a way of telling us that you came to class and engaged with the material for that week.\nYou only need to fill out 5 surveys (of the 10 class sessions) for the full 5%. We encourage you to fill out as many surveys as possible to provide feedback on the class though.\nPlease fill out surveys by 8 pm on Sunday evenings to guarantee that they will be counted. We usually download them some time on Sunday evening or Monday. If you turn it in before we download the responses, it will get counted.\n\nSee syllabus section on Post-class surveys"
+  },
+  {
+    "objectID": "weeks/week_09.html#topics",
+    "href": "weeks/week_09.html#topics",
+    "title": "Week 9",
+    "section": "Topics",
+    "text": "Topics\n\nPart 7\n\nWriting functions\nlists()\nFor Loops\nIteration"
+  },
+  {
+    "objectID": "weeks/week_09.html#class-materials",
+    "href": "weeks/week_09.html#class-materials",
+    "title": "Week 9",
+    "section": "Class materials",
+    "text": "Class materials\nReadings are still the same as for Week 8, and we are using the part_07 material on One Drive.\n\nWeek 8 Readings\nOneDrive part_07 Project folders"
+  },
+  {
+    "objectID": "weeks/week_09.html#post-class-survey",
+    "href": "weeks/week_09.html#post-class-survey",
+    "title": "Week 9",
+    "section": "Post-class survey",
+    "text": "Post-class survey\n\nPlease fill out the post-class survey to provide feedback. Thank you!"
+  },
+  {
+    "objectID": "weeks/week_09.html#homework",
+    "href": "weeks/week_09.html#homework",
+    "title": "Week 9",
+    "section": "Homework",
+    "text": "Homework\n\nSee OneDrive folder for homework assignment.\nHW 9 due on 3/13. Assignment is in the part 7 folder."
+  },
+  {
+    "objectID": "weeks/week_09.html#recording",
+    "href": "weeks/week_09.html#recording",
+    "title": "Week 9",
+    "section": "Recording",
+    "text": "Recording\n\nIn-class recording links are on Sakai. Navigate to Course Materials -&gt; Schedule with links to in-class recordings. Note that the password to the recordings is at the top of the page."
+  },
+  {
+    "objectID": "weeks/week_09.html#feedback-from-post-class-surveys",
+    "href": "weeks/week_09.html#feedback-from-post-class-surveys",
+    "title": "Week 9",
+    "section": "Feedback from post-class surveys",
+    "text": "Feedback from post-class surveys\n\nWeek 9 feedback will be added here during Week 10.\nSee Week 8 page for Week 8 feedback."
+  },
+  {
+    "objectID": "weeks/week_08.html#muddiest-points-from-week-8",
+    "href": "weeks/week_08.html#muddiest-points-from-week-8",
+    "title": "Week 8",
+    "section": "Muddiest points from Week 8",
+    "text": "Muddiest points from Week 8\n\nSee Week 7 page for Week 7 feedback.\n\n\nWhen loading a dataset, what does  mean?\nThis occurs when you use the data() function to load a data set from a package. Per the help on this function (?data):\n\ndata() was originally intended to allow users to load datasets from packages for use in their examples, and as such it loaded the datasets into the workspace .GlobalEnv. This avoided having large datasets in memory when not in use: that need has been almost entirely superseded by lazy-loading of datasets.\n\n\ndata(\"iris\")  # this doesn't actually load the data set, but makes it available for use\nhead(iris)    # Once it's used it will appear in the Environment as an object.\n\n  Sepal.Length Sepal.Width Petal.Length Petal.Width Species\n1          5.1         3.5          1.4         0.2  setosa\n2          4.9         3.0          1.4         0.2  setosa\n3          4.7         3.2          1.3         0.2  setosa\n4          4.6         3.1          1.5         0.2  setosa\n5          5.0         3.6          1.4         0.2  setosa\n6          5.4         3.9          1.7         0.4  setosa\n\n\n\n\nChallenge # 2\nThis was where we created a function to load 3 data sets, clean them, and convert them to long format. These are tasks we’ve seen in previous classes. In this challenge, the main takeaway was to see the DRY (Don’t repeat yourself) concept at play. Instead of writing the code 3 times for each data set, we can create a function where we only write the cleaning code once, then use that function 3 times.\nReviewing the challenge solutions and taking more time to work through it on your own is a good idea. We went through it pretty quick in class. You won’t usually be limited on time to get a function like that to work. In practice, if it’s taking more time and too complicated, then it’s fine to duplicate code so that you know it’s working correctly. But, with very repetitive tasks, functions can make your code less prone to errors from copying and pasting.\nIf you have trouble getting your code to work for the challenges, office hours are great for helping to debug code. Else, sharing full code in an email or on Slack.\n\n\npurrr::pluck\nThere was a specific question:\n\npurrr::pluck seems really useful, I wonder if you can tell it to pluck a specific record_ID?\n\nThe short answer is no. Not a specific ID. But if you know the position of the specific ID then you could.\n\n# Load packages\nlibrary(tidyverse)\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.3     ✔ readr     2.1.4\n✔ forcats   1.0.0     ✔ stringr   1.5.0\n✔ ggplot2   3.4.3     ✔ tibble    3.2.1\n✔ lubridate 1.9.2     ✔ tidyr     1.3.0\n✔ purrr     1.0.1     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\n# Create sample data\ndf &lt;- tibble::tibble(\n  id = c(\"0001\", \"0002\", \"0003\", \"0004\", \"0005\", \"0006\", \"0007\", \"0008\", \"0009\", \"0010\"), \n  sex = sample(x = c(\"M\", \"F\"), size = 10, replace = TRUE), \n  age = sample(x = 18:65, size = 10, replace = TRUE)\n  \n)\n\ndf\n\n# A tibble: 10 × 3\n   id    sex     age\n   &lt;chr&gt; &lt;chr&gt; &lt;int&gt;\n 1 0001  F        39\n 2 0002  M        32\n 3 0003  F        24\n 4 0004  F        29\n 5 0005  F        31\n 6 0006  M        56\n 7 0007  F        25\n 8 0008  F        56\n 9 0009  F        43\n10 0010  F        52\n\n# Say we want to extract ID 0003.\n\n# With purrr::pluck we need to know that it's in the 3rd row of the ID column\n\npurrr::pluck(df, \n             \"id\", \n             3)\n\n[1] \"0003\"\n\n# Gives an error\npurrr::pluck(df, \n             \"id\", \n             \"0003\")\n\nNULL\n\n# More than likely in this scenario, you would use a filter:\ndf |&gt; \n  dplyr::filter(id == \"0003\")\n\n# A tibble: 1 × 3\n  id    sex     age\n  &lt;chr&gt; &lt;chr&gt; &lt;int&gt;\n1 0003  F        24\n\n\npurrr::pluck was created to work with deeply nested data structures. Not necessarily data frames; there’s probably a more appropriate function out there for the task.\n\n\nLists – general confusion\n\nWhat do we do with lists?\nUsing lists\n\nWe will get to work more with lists in Week 9 and get more opportunities to see how they are used.\nLists are more flexible and have the ability to handle various data structures which make them a powerful tool for organizing, manipulating, and representing complex data in R.\n\n\nLists – One bracket versus two brackets.\nOne bracket [ ] and two brackets [[ ]] serves different purposes, primarily when accessing elements in a data structure like vectors, lists, or data frames.\n\nOne Bracket [ ]:\n\nVectors:\nWhen used with a single bracket, you can use it to subset or extract elements from a vector.\n\n# Example with a vector\nmy_vector &lt;- c(1, 2, 3, 4, 5)\nmy_vector[3]  # Extracts the element at index 3\n\n[1] 3\n\n\n\n\nData Frames:\nWhen used with a data frame, it can be used to extract columns or rows.\n\n# Example with a data frame\n\ndf &lt;- tibble::tibble(\n  name = c(\"Alice\", \"Bob\", \"Charlie\"), \n  age = c(25, 30, 22)\n  )\n\n# Extract the age column\ndf[\"age\"]\n\n# A tibble: 3 × 1\n    age\n  &lt;dbl&gt;\n1    25\n2    30\n3    22\n\n\n\n\n\nTwo Brackets [[ ]]:\n\nLists:\nWhen working with lists, double brackets are used to extract elements from the list. The result is the actual element, not a list containing the element.\n\n# Example with a list\nmy_list &lt;- list(1, \n                c(2, 3), \n                \"four\")\n\nmy_list[[2]]  # Extracts the second element (a vector) from the list\n\n[1] 2 3\n\n\nCompare to using []\n\nmy_list[2]\n\n[[1]]\n[1] 2 3\n\n\n[[]] returned the vector contained in that slot. [] returned a list containing the vector.\n\n\nNested Data Structures:\nFor accessing elements in nested data structures like lists within lists.\n\n# Example with a nested list\nnested_list &lt;- list(first = list(a = 1, b = 2), \n                    second = list(c = 3, d = 4))\n\nnested_list\n\n$first\n$first$a\n[1] 1\n\n$first$b\n[1] 2\n\n\n$second\n$second$c\n[1] 3\n\n$second$d\n[1] 4\n\nnested_list[[1]] # Extract the list contained in the first slot\n\n$a\n[1] 1\n\n$b\n[1] 2\n\nnested_list[[1]][[\"b\"]]  # Extracts the value associated with \"b\" in the first list\n\n[1] 2\n\n\nIn summary, one bracket [ ] is used for general subsetting, whether it’s extracting elements from vectors, columns from data frames, or specific elements from lists. On the other hand, two brackets [[ ]] are specifically used for extracting elements from lists and accessing elements in nested structures.\n\n\n\n\nHow and when to use curly curly within a function\n{{ }} will be covered in upcoming class lectures. We talked about it in Week 8 as a quick aside because a specific question came up. Not much detail was given intentionally as it is a separate topic for another day."
   }
 ]
