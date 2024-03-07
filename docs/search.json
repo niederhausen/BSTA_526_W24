@@ -1061,28 +1061,28 @@
     "href": "readings/10-reading.html",
     "title": "Week 10 Readings",
     "section": "",
-    "text": "Introduction to broom"
+    "text": "Introduction to map() - Jenny Bryan\nPurrr Tips and Tricks by Emil Hvitfeldt.\nIntroduction to broom"
   },
   {
     "objectID": "readings/10-reading.html#required",
     "href": "readings/10-reading.html#required",
     "title": "Week 10 Readings",
     "section": "",
-    "text": "Introduction to broom"
+    "text": "Introduction to map() - Jenny Bryan\nPurrr Tips and Tricks by Emil Hvitfeldt.\nIntroduction to broom"
   },
   {
     "objectID": "readings/10-reading.html#suggested",
     "href": "readings/10-reading.html#suggested",
     "title": "Week 10 Readings",
     "section": "Suggested",
-    "text": "Suggested\n\nProgramming with dplyr - in case I can’t get to tidyeval use for functions with tidyverse\nggplot2 in packages - examples how to use ggplot inside functions\nResources for learning more statistics:\n\nModern Dive / Statistical Inference via Data Science by Chester Ismay and Albert Y Kim is a nice place to start: https://moderndive.com/\nDanielle Navarro’s Learning Statistics with R is excellent and talks much more about statistics: https://learningstatisticswithr.com/\n\nMore on using map and nested data with modeling: R for Data Science: Many Models\nbroom and dplyr\nUseful vignettes on table output: gtsummary intro to tbl_summary\nTed Laderas’s interactive workbook on learning rowwise and nested data: learning rowwise\nWe might not get to dates but in case you want to learn more: Dates and times in R for Data Science\nIf you want to learn about tidymodels: Introduction to Machine Learning with the Tidyverse\nJoy of Functional programming talk by Hadley Wickham - more on nesting/iteration\nMore on model building and machine learning\n\nModel Building from R for Data Science\nMany Models - from R for Data science. Covers group_by()/nest() and list-columns\nTidymodels with R: Recipes\nTidymodels with R: Fitting Models with Parsnip\nTidymodels with R: Judging Model Effectiveness\nUMAP and Cocktail Recipes\nTidymodels: K-means\nPCA and Penguins"
+    "text": "Suggested\n\nMore on using map and nested data with modeling: R for Data Science: Many Models\nbroom and dplyr\nJoy of Functional programming talk by Hadley Wickham - more on nesting/iteration\n\nFor learning more about statistics with R:\n\nModern Dive / Statistical Inference via Data Science by Chester Ismay and Albert Y Kim is a nice place to start: https://moderndive.com/\nDanielle Navarro’s Learning Statistics with R is excellent and talks much more about statistics: https://learningstatisticswithr.com/\nModel Basics from R for Data Science\nMore on survival analysis in R\n\nSurvival Analysis in R Tutorial by Dr. Emily C Zabor\nSurvminer survival plot vignette\nUVA’s Survival Workshop materials\nRview’s Survival Analysis\n\nProgramming with dplyr - in case I can’t get to tidyeval use for functions with tidyverse\nggplot2 in packages - examples how to use ggplot inside functions\nResources for learning more statistics:\n\nModern Dive / Statistical Inference via Data Science by Chester Ismay and Albert Y Kim is a nice place to start: https://moderndive.com/\nDanielle Navarro’s Learning Statistics with R is excellent and talks much more about statistics: https://learningstatisticswithr.com/\n\nMore on using map and nested data with modeling: R for Data Science: Many Models\nbroom and dplyr\nUseful vignettes on table output: gtsummary intro to tbl_summary\nTed Laderas’s interactive workbook on learning rowwise and nested data: learning rowwise\nWe might not get to dates but in case you want to learn more: Dates and times in R for Data Science\nIf you want to learn about tidymodels: Introduction to Machine Learning with the Tidyverse\nJoy of Functional programming talk by Hadley Wickham - more on nesting/iteration\nMore on model building and machine learning\n\nModel Building from R for Data Science\nMany Models - from R for Data science. Covers group_by()/nest() and list-columns\nTidymodels with R: Recipes\nTidymodels with R: Fitting Models with Parsnip\nTidymodels with R: Judging Model Effectiveness\nUMAP and Cocktail Recipes\nTidymodels: K-means\nPCA and Penguins"
   },
   {
     "objectID": "readings/09-reading.html",
     "href": "readings/09-reading.html",
     "title": "Week 9 Readings",
     "section": "",
-    "text": "Introduction to map() - Jenny Bryan\nPurrr Tips and Tricks by Emil Hvitfeldt."
+    "text": "Same readings as Week 8."
   },
   {
     "objectID": "readings/09-reading.html#required",
