@@ -11,9 +11,9 @@ editor_options:
 ---
 
 
-* Either open the [Functions of the week webpage](https://niederhausen.github.io/Function_of_the_week_BSTA526_W24/) in a new browser window or view the webpage embedded below. 
+* Either open the [Functions of the week webpage](https://niederhausen.github.io/Function_of_the_week_BSTA526_W24/) in a new browser window or view the webpage embedded below 
 
 
 ```{=html}
-<iframe width="1000" height="1000" src="https://niederhausen.github.io/Function_of_the_week_BSTA526_W24/" title="Functions of the Wekk"></iframe>
+<iframe width="1000" height="1000" src="https://niederhausen.github.io/Function_of_the_week_BSTA526_W24/" title="Functions of the Week"></iframe>
 ```
