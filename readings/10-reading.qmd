@@ -23,7 +23,7 @@ editor_options:
 
 ## Suggested
 
-- More on using map and nested data with modeling: [R for Data Science: Many Models](https://r4ds.had.co.nz/many-models.html)
+- More on using map and nested data with modeling: [R for Data Science: Many Models, First edition](https://r4ds.had.co.nz/many-models.html)
 - [broom and dplyr](https://broom.tidymodels.org/articles/broom_and_dplyr.html)
 - [Joy of Functional programming talk by Hadley Wickham](https://learning.acm.org/techtalks/functionalprogramming) - more on nesting/iteration
 

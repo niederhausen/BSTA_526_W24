@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="dcterms.date" content="2024-03-13">
-<meta name="description" content="More stats, broom, and tables (gt, gtsummary)">
+<meta name="description" content="Intro to stats, broom, more purrr">
 
-<title>BSTA 526 Winter 2024 - Week 10 Readings</title>
+<title>BSTA 526 Winter 2024 - Week 10</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -117,7 +117,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Week 10 Readings</li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Week 10</li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -183,8 +183,19 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#required" id="toc-required" class="nav-link active" data-scroll-target="#required">Required</a></li>
-  <li><a href="#suggested" id="toc-suggested" class="nav-link" data-scroll-target="#suggested">Suggested</a></li>
+  <li><a href="#announcements" id="toc-announcements" class="nav-link active" data-scroll-target="#announcements">Announcements</a>
+  <ul class="collapse">
+  <li><a href="#reminder-to-fill-out-post-class-surveys" id="toc-reminder-to-fill-out-post-class-surveys" class="nav-link" data-scroll-target="#reminder-to-fill-out-post-class-surveys">Reminder to fill out post-class surveys</a></li>
+  </ul></li>
+  <li><a href="#topics" id="toc-topics" class="nav-link" data-scroll-target="#topics">Topics</a>
+  <ul class="collapse">
+  <li><a href="#part-8" id="toc-part-8" class="nav-link" data-scroll-target="#part-8">Part 8</a></li>
+  </ul></li>
+  <li><a href="#class-materials" id="toc-class-materials" class="nav-link" data-scroll-target="#class-materials">Class materials</a></li>
+  <li><a href="#post-class-survey" id="toc-post-class-survey" class="nav-link" data-scroll-target="#post-class-survey">Post-class survey</a></li>
+  <li><a href="#homework" id="toc-homework" class="nav-link" data-scroll-target="#homework">Homework</a></li>
+  <li><a href="#recording" id="toc-recording" class="nav-link" data-scroll-target="#recording">Recording</a></li>
+  <li><a href="#feedback-from-post-class-surveys" id="toc-feedback-from-post-class-surveys" class="nav-link" data-scroll-target="#feedback-from-post-class-surveys">Feedback from post-class surveys</a></li>
   </ul>
 </nav>
     </div>
@@ -193,12 +204,12 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Week 10 Readings</h1>
+<h1 class="title">Week 10</h1>
 </div>
 
 <div>
   <div class="description">
-    More stats, broom, and tables (gt, gtsummary)
+    Intro to stats, broom, more purrr
   </div>
 </div>
 
@@ -225,58 +236,76 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="required" class="level2">
-<h2 class="anchored" data-anchor-id="required">Required</h2>
+<section id="announcements" class="level2">
+<h2 class="anchored" data-anchor-id="announcements">Announcements</h2>
 <ul>
-<li><a href="https://jennybc.github.io/purrr-tutorial/ls01_map-name-position-shortcuts.html">Introduction to map()</a> - Jenny Bryan</li>
-<li><a href="https://www.emilhvitfeldt.com/post/2018-01-08-purrr-tips-and-tricks/">Purrr Tips and Tricks</a> by Emil Hvitfeldt.</li>
-<li><a href="https://cran.r-project.org/web/packages/broom/vignettes/broom.html">Introduction to broom</a></li>
+<li>Grades for midterm projects will be released in 1-2 days.
+<ul>
+<li>You will be notified by Sakai via your OHSU email address when grades are released.</li>
+<li>Please review the comments and let us know if you have any questions.</li>
+</ul></li>
+<li><em>Please fill out the course evaluations for the class.</em>
+<ul>
+<li>Course evaluations are very helpful for making improvements to our classes.</li>
+<li>If too few students fill out the evaluations, they are not released to us.</li>
+<li>You might have two evaluations since there are two instructors.</li>
+</ul></li>
+</ul>
+<!-- * Final exam will be posted soon.  -->
+<section id="reminder-to-fill-out-post-class-surveys" class="level3">
+<h3 class="anchored" data-anchor-id="reminder-to-fill-out-post-class-surveys">Reminder to fill out post-class surveys</h3>
+<ul>
+<li>This is a reminder that 5% of your grade is based on filling out <a href="https://ohsu.ca1.qualtrics.com/jfe/form/SV_5urkrdktEwkQqEu">post-class surveys</a> as a way of telling us that you came to class and engaged with the material for that week.</li>
+<li>You only need to fill out 5 surveys (of the 10 class sessions) for the full 5%. We encourage you to fill out as many surveys as possible to provide feedback on the class though.</li>
+<li><strong>Please fill out surveys by 8 pm on Sunday evenings to guarantee that they will be counted.</strong> We usually download them some time on Sunday evening or Monday. If you turn it in before we download the responses, it will get counted.</li>
+</ul>
+<p><em>See <a href="https://niederhausen.github.io/BSTA_526_W24/syllabus.html#post-class-surveys">syllabus section on Post-class surveys</a></em></p>
+</section>
+</section>
+<section id="topics" class="level2">
+<h2 class="anchored" data-anchor-id="topics">Topics</h2>
+<section id="part-8" class="level3">
+<h3 class="anchored" data-anchor-id="part-8">Part 8</h3>
+<ul>
+<li>Introduce simple statistical modelling</li>
+<li>Learn about the useful <code>broom</code> package</li>
+<li>More iteration with <code>purrr</code></li>
+<li>Slitting up data for iteration</li>
+<li>Other useful <code>purrr</code></li>
 </ul>
 </section>
-<section id="suggested" class="level2">
-<h2 class="anchored" data-anchor-id="suggested">Suggested</h2>
+</section>
+<section id="class-materials" class="level2">
+<h2 class="anchored" data-anchor-id="class-materials">Class materials</h2>
+<p>Readings are linked below, and we are using the part_08 material on One Drive.</p>
 <ul>
-<li>More on using map and nested data with modeling: <a href="https://r4ds.had.co.nz/many-models.html">R for Data Science: Many Models, First edition</a></li>
-<li><a href="https://broom.tidymodels.org/articles/broom_and_dplyr.html">broom and dplyr</a></li>
-<li><a href="https://learning.acm.org/techtalks/functionalprogramming">Joy of Functional programming talk by Hadley Wickham</a> - more on nesting/iteration</li>
+<li><a href="../readings/10-reading.html">Week 10 Readings</a></li>
+<li>OneDrive <a href="https://ohsuitg-my.sharepoint.com/:f:/g/personal/niederha_ohsu_edu/EvZ5qnesTopKqFWN2_hqEsYBLKZmJDjVxrPCbQOpvAIYSg?e=RDggRF">part_08 Project folders</a></li>
 </ul>
-<p>For learning more about statistics with R:</p>
+</section>
+<section id="post-class-survey" class="level2">
+<h2 class="anchored" data-anchor-id="post-class-survey">Post-class survey</h2>
 <ul>
-<li>Modern Dive / Statistical Inference via Data Science by Chester Ismay and Albert Y Kim is a nice place to start: <a href="https://moderndive.com/" class="uri">https://moderndive.com/</a></li>
-<li>Danielle Navarro’s Learning Statistics with R is excellent and talks much more about statistics: <a href="https://learningstatisticswithr.com/" class="uri">https://learningstatisticswithr.com/</a></li>
-<li><a href="https://r4ds.had.co.nz/model-basics.html">Model Basics</a> from R for Data Science</li>
-<li>More on survival analysis in R
+<li>Please fill out the <a href="https://ohsu.ca1.qualtrics.com/jfe/form/SV_5urkrdktEwkQqEu">post-class survey</a> to provide feedback. Thank you!</li>
+</ul>
+</section>
+<section id="homework" class="level2">
+<h2 class="anchored" data-anchor-id="homework">Homework</h2>
 <ul>
-<li><a href="https://www.emilyzabor.com/tutorials/survival_analysis_in_r_tutorial.html">Survival Analysis in R Tutorial by Dr.&nbsp;Emily C Zabor</a></li>
-<li><a href="https://cran.r-project.org/web/packages/survminer/vignettes/Informative_Survival_Plots.html">Survminer survival plot vignette</a></li>
-<li><a href="https://bioconnector.github.io/workshops/r-survival.html">UVA’s Survival Workshop materials</a></li>
-<li><a href="https://rviews.rstudio.com/2017/09/25/survival-analysis-with-r/">Rview’s Survival Analysis</a></li>
-</ul></li>
-<li><a href="https://dplyr.tidyverse.org/articles/programming.html">Programming with dplyr</a> - in case I can’t get to tidyeval use for functions with tidyverse</li>
-<li><a href="https://ggplot2.tidyverse.org/articles/ggplot2-in-packages.html">ggplot2 in packages</a> - examples how to use ggplot inside functions</li>
-<li>Resources for learning more statistics:
+<li>TBD</li>
+</ul>
+</section>
+<section id="recording" class="level2">
+<h2 class="anchored" data-anchor-id="recording">Recording</h2>
 <ul>
-<li>Modern Dive / Statistical Inference via Data Science by Chester Ismay and Albert Y Kim is a nice place to start: <a href="https://moderndive.com/" class="uri">https://moderndive.com/</a></li>
-<li>Danielle Navarro’s Learning Statistics with R is excellent and talks much more about statistics: <a href="https://learningstatisticswithr.com/" class="uri">https://learningstatisticswithr.com/</a></li>
-</ul></li>
-<li>More on using map and nested data with modeling: <a href="https://r4ds.had.co.nz/many-models.html">R for Data Science: Many Models</a></li>
-<li><a href="https://broom.tidymodels.org/articles/broom_and_dplyr.html">broom and dplyr</a></li>
-<li>Useful vignettes on table output: <a href="https://www.danieldsjoberg.com/gtsummary/articles/tbl_summary.html">gtsummary intro to tbl_summary</a></li>
-<li>Ted Laderas’s interactive workbook on learning rowwise and nested data: <a href="https://tladeras.shinyapps.io/learning_rowwise">learning rowwise</a></li>
-<li>We might not get to dates but in case you want to learn more: <a href="https://r4ds.had.co.nz/dates-and-times.html">Dates and times in R for Data Science</a></li>
-<li>If you want to learn about tidymodels: <a href="https://education.rstudio.com/blog/2020/02/conf20-intro-ml/">Introduction to Machine Learning with the Tidyverse</a></li>
-<li><a href="https://learning.acm.org/techtalks/functionalprogramming">Joy of Functional programming talk by Hadley Wickham</a> - more on nesting/iteration</li>
-<li>More on model building and machine learning
+<li><strong>In-class</strong> recording links are on <a href="https://sakai.ohsu.edu/portal/site/BSTA-526-1-AX-W24/tool/a973f2a2-ea06-4734-aab7-a066c5573ca6/ShowPage?returnView=&amp;studentItemId=0&amp;backPath=&amp;bltiAppStores=false&amp;errorMessage=&amp;clearAttr=&amp;messageId=&amp;source=&amp;title=&amp;newTopLevel=false&amp;sendingPage=190949&amp;postedComment=false&amp;addBefore=&amp;itemId=5172228&amp;path=push&amp;topicId=&amp;addTool=-1&amp;recheck=&amp;id=&amp;forumId=">Sakai</a>. Navigate to <em>Course Materials</em> -&gt; <em>Schedule with links to in-class recordings</em>. Note that the password to the recordings is at the top of the page.</li>
+</ul>
+</section>
+<section id="feedback-from-post-class-surveys" class="level2">
+<h2 class="anchored" data-anchor-id="feedback-from-post-class-surveys">Feedback from post-class surveys</h2>
 <ul>
-<li><a href="https://r4ds.had.co.nz/model-building.html">Model Building</a> from R for Data Science</li>
-<li><a href="https://r4ds.had.co.nz/many-models.html">Many Models</a> - from R for Data science. Covers <code>group_by()/nest()</code> and list-columns</li>
-<li><a href="https://www.tmwr.org/recipes.html">Tidymodels with R: Recipes</a></li>
-<li><a href="https://www.tmwr.org/models.html">Tidymodels with R: Fitting Models with Parsnip</a></li>
-<li><a href="https://www.tmwr.org/performance.html">Tidymodels with R: Judging Model Effectiveness</a></li>
-<li><a href="https://juliasilge.com/blog/cocktail-recipes-umap/">UMAP and Cocktail Recipes</a></li>
-<li><a href="https://www.tidymodels.org/learn/statistics/k-means/">Tidymodels: K-means</a></li>
-<li><a href="https://allisonhorst.github.io/palmerpenguins/articles/articles/pca.html">PCA and Penguins</a></li>
-</ul></li>
+<li>Week 10 feedback will be added here during Week 11.</li>
+<li>See Week 9 page for <a href="../weeks/week_09.html#muddiest-points-from-week-9">Week 9 feedback</a>.</li>
 </ul>
 
 

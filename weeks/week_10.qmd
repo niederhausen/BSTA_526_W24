@@ -1,0 +1,75 @@
+---
+title: "Week 10"
+description: "Intro to stats, broom, more purrr"
+date: "03/13/2024"
+date-modified: "today"
+categories: [""]
+format: 
+  html:
+    link-external-newwindow: true
+    toc: true
+editor_options: 
+  chunk_output_type: console
+---
+
+## Announcements
+
+* Grades for midterm projects will be released in 1-2 days. 
+    * You will be notified by Sakai via your OHSU email address when grades are released. 
+    * Please review the comments and let us know if you have any questions. 
+* _Please fill out the course evaluations for the class._ 
+    * Course evaluations are very helpful for making improvements to our classes. 
+    * If too few students fill out the evaluations, they are not released to us.
+    * You might have two evaluations since there are two instructors. 
+
+
+<!-- * Final exam will be posted soon.  -->
+
+
+### Reminder to fill out post-class surveys
+
+* This is a reminder that 5% of your grade is based on filling out [post-class surveys](https://ohsu.ca1.qualtrics.com/jfe/form/SV_5urkrdktEwkQqEu) as a way of telling us that you came to class and engaged with the material for that week.
+* You only need to fill out 5 surveys (of the 10 class sessions) for the full 5%. We encourage you to fill out as many surveys as possible to provide feedback on the class though.
+* __Please fill out surveys by 8 pm on Sunday evenings to guarantee that they will be counted.__ We usually download them some time on Sunday evening or Monday. If you turn it in before we download the responses, it will get counted. 
+
+_See [syllabus section on Post-class surveys](https://niederhausen.github.io/BSTA_526_W24/syllabus.html#post-class-surveys)_
+
+
+
+## Topics
+
+### Part 8
+
+* Introduce simple statistical modelling
+* Learn about the useful `broom` package
+* More iteration with `purrr`
+* Slitting up data for iteration
+* Other useful `purrr`
+
+## Class materials
+
+Readings are linked below, and we are using the part_08 material on One Drive.
+
+* [Week 10 Readings](../readings/10-reading.qmd)
+* OneDrive [part_08 Project folders](https://ohsuitg-my.sharepoint.com/:f:/g/personal/niederha_ohsu_edu/EvZ5qnesTopKqFWN2_hqEsYBLKZmJDjVxrPCbQOpvAIYSg?e=RDggRF)
+
+
+## Post-class survey
+
+* Please fill out the [post-class survey](https://ohsu.ca1.qualtrics.com/jfe/form/SV_5urkrdktEwkQqEu) to provide feedback. Thank you!
+
+
+## Homework
+
+* TBD
+
+
+## Recording
+
+* __In-class__ recording links are on [Sakai](https://sakai.ohsu.edu/portal/site/BSTA-526-1-AX-W24/tool/a973f2a2-ea06-4734-aab7-a066c5573ca6/ShowPage?returnView=&studentItemId=0&backPath=&bltiAppStores=false&errorMessage=&clearAttr=&messageId=&source=&title=&newTopLevel=false&sendingPage=190949&postedComment=false&addBefore=&itemId=5172228&path=push&topicId=&addTool=-1&recheck=&id=&forumId=). Navigate to _Course Materials_ -> _Schedule with links to in-class recordings_. Note that the password to the recordings is at the top of the page. 
+
+
+## Feedback from post-class surveys
+
+* Week 10 feedback will be added here during Week 11.
+* See Week 9 page for [Week 9 feedback](week_09.qmd#muddiest-points-from-week-9).
