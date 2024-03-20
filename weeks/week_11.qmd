@@ -49,3 +49,6 @@ editor_options:
 * __In-class__ recording links are on [Sakai](https://sakai.ohsu.edu/portal/site/BSTA-526-1-AX-W24/tool/a973f2a2-ea06-4734-aab7-a066c5573ca6/ShowPage?returnView=&studentItemId=0&backPath=&bltiAppStores=false&errorMessage=&clearAttr=&messageId=&source=&title=&newTopLevel=false&sendingPage=190949&postedComment=false&addBefore=&itemId=5172228&path=push&topicId=&addTool=-1&recheck=&id=&forumId=). Navigate to _Course Materials_ -> _Schedule with links to in-class recordings_. Note that the password to the recordings is at the top of the page. 
 
 
+## Muddiest points 
+
+* See Week 10 page for [Week 10 feedback](week_10.qmd#muddiest-points-from-week-10).
