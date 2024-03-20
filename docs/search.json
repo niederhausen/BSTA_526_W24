@@ -214,7 +214,7 @@
     "href": "weeks.html",
     "title": "Weekly Pages",
     "section": "",
-    "text": "Links to weekly pages\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\n1/10/24\n\n\nWeek 1\n\n\nIntro to R/RStudio, Functions, Vectors, Data Types\n\n\n\n\n1/17/24\n\n\nWeek 2\n\n\nProjects, data frames, reading in data, visualizing data with ggplot2\n\n\n\n\n1/24/24\n\n\nWeek 3\n\n\nErrors, more data loading, data manipulation, ggplot themes, factors\n\n\n\n\n1/31/24\n\n\nWeek 4\n\n\nmutate(), case_when(), more ggplot2\n\n\n\n\n2/7/24\n\n\nWeek 5\n\n\nData summarizing, reshaping, and wrangling with multiple tables\n\n\n\n\n2/14/24\n\n\nWeek 6\n\n\nStart with your goal: more data wrangling\n\n\n\n\n2/21/24\n\n\nWeek 7\n\n\nStart with your goal: more data wrangling\n\n\n\n\n2/28/24\n\n\nWeek 8\n\n\nLists and Functions\n\n\n\n\n3/6/24\n\n\nWeek 9\n\n\nLists and Functions (continued)\n\n\n\n\n3/13/24\n\n\nWeek 10\n\n\nIntro to stats, broom, more purrr\n\n\n\n\n\n\nNo matching items"
+    "text": "Links to weekly pages\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\n1/10/24\n\n\nWeek 1\n\n\nIntro to R/RStudio, Functions, Vectors, Data Types\n\n\n\n\n1/17/24\n\n\nWeek 2\n\n\nProjects, data frames, reading in data, visualizing data with ggplot2\n\n\n\n\n1/24/24\n\n\nWeek 3\n\n\nErrors, more data loading, data manipulation, ggplot themes, factors\n\n\n\n\n1/31/24\n\n\nWeek 4\n\n\nmutate(), case_when(), more ggplot2\n\n\n\n\n2/7/24\n\n\nWeek 5\n\n\nData summarizing, reshaping, and wrangling with multiple tables\n\n\n\n\n2/14/24\n\n\nWeek 6\n\n\nStart with your goal: more data wrangling\n\n\n\n\n2/21/24\n\n\nWeek 7\n\n\nStart with your goal: more data wrangling\n\n\n\n\n2/28/24\n\n\nWeek 8\n\n\nLists and Functions\n\n\n\n\n3/6/24\n\n\nWeek 9\n\n\nLists and Functions (continued)\n\n\n\n\n3/13/24\n\n\nWeek 10\n\n\nIntro to stats, broom, more purrr\n\n\n\n\n3/20/24\n\n\nWeek 11\n\n\nFinal week\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "readings.html",
@@ -1272,5 +1272,61 @@
     "title": "Week 9",
     "section": "General references",
     "text": "General references\n\nIs there a good dictionary type document with “R language” or very basic function descriptions? … find it difficult to know what functions I need because it is hard to recall their name or confuse it with a different function.\n\n\nR Documentation (Built-in Help): R itself provides built-in documentation that you can access using the help() function or the ? operator. For example, to get help on the mean() function, you can type help(mean) or ?mean in the R console.\nR Manuals and Guides: The official R documentation, including manuals and guides, is available on the R Project website: R Manuals.\nR Packages Documentation: Many R packages come with detailed documentation. You can find documentation for a specific package by visiting the CRAN website (Comprehensive R Archive Network) and searching for the package of interest.\nOnline Resources: Websites like RDocumentation provide a searchable database of R functions along with their documentation. You can search for a specific function and find details on its usage and parameters.\nRStudio cheatsheets\nBase R cheatsheet\nR: A Language and Environment for Statistical Computing: Reference Index\nCRAN Task Views\nPart 3 section on getting help with errors.\nBooks like “R for Data Science” by Hadley Wickham\nWhen you use a function or learn to use it, make notes to yourself using Google Doc or OneNote or something similar."
+  },
+  {
+    "objectID": "weeks/week_11.html",
+    "href": "weeks/week_11.html",
+    "title": "Week 11",
+    "section": "",
+    "text": "No new material this week.\n\nClass will be office hours and held online via Webex.\nSee your email, Slack, or Sakai for the link.\n\n\nMeike’s office hours this week\n\nThursday 4-5 pm (instead of Friday at 3:30).\nUse same Webex link as usual office hours.\n\nFinal exam due Friday 3/22/2024 at 5:00 pm.\n\nSee OneDrive folder final_exam for files.\n\nGrades for midterm projects have been released.\n\nCheck the feedback attachment in Sakai (Excel file) for grade calculation and comments for each section.\nPoints were calculated using the grading rubric in the syllabus. The final grade is out of 10 points. See the grading scale for letter grade conversion.\nPlease review the comments and let us know if you have any questions.\n\nPlease fill out the course evaluations for the class.\n\nCourse evaluations are very helpful for making improvements to our classes.\nIf too few students fill out the evaluations, they are not released to us.\nYou might have two evaluations since there are two instructors."
+  },
+  {
+    "objectID": "weeks/week_11.html#announcements",
+    "href": "weeks/week_11.html#announcements",
+    "title": "Week 11",
+    "section": "",
+    "text": "No new material this week.\n\nClass will be office hours and held online via Webex.\nSee your email, Slack, or Sakai for the link.\n\n\nMeike’s office hours this week\n\nThursday 4-5 pm (instead of Friday at 3:30).\nUse same Webex link as usual office hours.\n\nFinal exam due Friday 3/22/2024 at 5:00 pm.\n\nSee OneDrive folder final_exam for files.\n\nGrades for midterm projects have been released.\n\nCheck the feedback attachment in Sakai (Excel file) for grade calculation and comments for each section.\nPoints were calculated using the grading rubric in the syllabus. The final grade is out of 10 points. See the grading scale for letter grade conversion.\nPlease review the comments and let us know if you have any questions.\n\nPlease fill out the course evaluations for the class.\n\nCourse evaluations are very helpful for making improvements to our classes.\nIf too few students fill out the evaluations, they are not released to us.\nYou might have two evaluations since there are two instructors."
+  },
+  {
+    "objectID": "weeks/week_11.html#topics",
+    "href": "weeks/week_11.html#topics",
+    "title": "Week 11",
+    "section": "Topics",
+    "text": "Topics\n\nNo new material will be covered this week."
+  },
+  {
+    "objectID": "weeks/week_11.html#class-materials",
+    "href": "weeks/week_11.html#class-materials",
+    "title": "Week 11",
+    "section": "Class materials",
+    "text": "Class materials\nReadings are linked below, and we are using the part_08 material on One Drive.\n\nWeek 10 Readings\nOneDrive part_08 Project folders"
+  },
+  {
+    "objectID": "weeks/week_11.html#post-class-survey",
+    "href": "weeks/week_11.html#post-class-survey",
+    "title": "Week 11",
+    "section": "Post-class survey",
+    "text": "Post-class survey\n\nPlease fill out the post-class survey to provide feedback. Thank you!"
+  },
+  {
+    "objectID": "weeks/week_11.html#homework",
+    "href": "weeks/week_11.html#homework",
+    "title": "Week 11",
+    "section": "Homework",
+    "text": "Homework\n\nSee OneDrive folder for homework assignment.\nHW 10 due on 3/20. Assignment is in the part 8 folder.\n\nRecall that the lowest HW score is dropped"
+  },
+  {
+    "objectID": "weeks/week_11.html#recording",
+    "href": "weeks/week_11.html#recording",
+    "title": "Week 11",
+    "section": "Recording",
+    "text": "Recording\n\nIn-class recording links are on Sakai. Navigate to Course Materials -&gt; Schedule with links to in-class recordings. Note that the password to the recordings is at the top of the page."
+  },
+  {
+    "objectID": "weeks/week_11.html#feedback-from-post-class-surveys",
+    "href": "weeks/week_11.html#feedback-from-post-class-surveys",
+    "title": "Week 11",
+    "section": "Feedback from post-class surveys",
+    "text": "Feedback from post-class surveys\n\nWeek 10 feedback will be added here during Week 11.\nSee Week 9 page for Week 9 feedback."
   }
 ]
